@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no, minimal-ui">
+	<meta name="format-detection" content="telephone=no" />
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style type="text/css">
+		*{font-family:"Microsoft YaHei",Arial,"Helvetica";}
+	    body{margin: 0; padding: 0; list-style: none;}
+		.tablebox{ width: 100%; background: #fcf8ef; border-top: solid 1px #e2caaf;border-bottom: solid 1px #e2caaf; margin-bottom: 0.75rem;}
+		.topbt{ height: 1.08rem; margin-left: 0.25rem; overflow: hidden; margin-top: 0.83rem;}
+		.topbt span{width:0.2rem; height: 1.08rem; background: #c02531; display: block; float: left; margin-right: 0.54rem;}
+		.topbt h2{ float: left; display: block; font-size: 0.66rem; color: #c02531; line-height: 1.08rem;}
+		.tabmain{ width: 92%;margin: 0 auto;}
+		.seafont{ font-size: 0.83rem; color: #817b7b; line-height: 0.83px; height: 0.83rem;margin-top: 0.83rem;margin-bottom: 0.83rem;}
+		.zred{ width: 100%; height: 0.4rem; background: #8c1a23; border-top-left-radius:0.5em;-webkit-border-top-left-radius:0.5em;-moz-border-top-left-radius:0.5em;-o-border-top-left-radius:0.5em;border-top-right-radius:0.5em;-webkit-border-top-right-radius:0.5em;-moz-border-top-right-radius:0.5em;-o-border-top-right-radius:0.5em;}
+		.hbox{ width: 100%; height: 2.7rem;border-bottom: solid 1px #c02531; background: #c02531;}
+		.hbox span{ width: 20%; display: block; float: left; text-align: center;height: 2.7rem; background: #ab1e29; box-sizing:border-box; -webkit-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; border-right: solid 1px #c02531; font-size: 0.83rem; line-height: 2.7rem; color: #ecdda2;}
+		.hbox span.zj{ width: 40%; float: right;}
+		.bornr{ border-bottom: none;}
+		.bornr span{background: none; border:none;}
+		.bornr:nth-child(odd){background: #c02531;}
+		.bornr:nth-child(even){background: #d54954;}
+		.bornr:last-child{border-bottom-right-radius:0.5em;-webkit-border-bottom-right-radius:0.5em;-o-border-bottom-right-radius:0.5em;-moz-border-bottom-right-radius:0.5em;border-bottom-left-radius:0.5em;-webkit-border-bottom-left-radius:0.5em;-moz-border-bottom-left-radius:0.5em;-o-border-bottom-left-radius:0.5em;}
+		.yjjh{ font-size: 1rem; color: #c02531; font-weight: bold; line-height: 2.58rem; text-align: center; font-weight: bold;}
+		.question{ width: 100%; border-bottom: dashed 1px #da7f82;}
+		.questionin{width: 100%;}
+		.qusimg{ float: left; width: 1.16rem; height: 1.5rem; overflow: hidden;}
+		.qusimg img{ width: 1.16rem;}
+		.qustext{ float: right; width: 92%; font-size:0.83rem ;color:#c02531; line-height: 1.5rem;}
+		.mb06{ margin-bottom: 0.6rem;}
+		.mt083{ margin-top: 0.83rem;}
+		.answer .qusimg img{ margin-top: -2rem;}
+		.answer .qustext{ color: #666666;}
+		.question:last-child{border-bottom: none;}
+		.gzbox{ width: 100%; height: 100%; width: 100%; height: 100%;display: -webkit-box;  -webkit-box-orient: horizontal;-webkit-box-pack: center;-webkit-box-align: center;display: -moz-box;-moz-box-orient: horizontal;-moz-box-pack: center;-moz-box-align: center;display: -o-box;-o-box-orient: horizontal;-o-box-pack: center;-o-box-align: center;display: -ms-box;-ms-box-orient: horizontal;-ms-box-pack: center;-ms-box-align: center;display: box;box-orient: horizontal;box-pack: center;box-align: center; background: rgba(0, 0, 0, 0.3); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);    position: fixed; left: 0;top: 0; z-index: 56;}
+		.gzfont{ width: 82%; height: 25rem; background: #fff;}
+		.gzfontop{ width: 100%; height: 2.75rem; background: #c02531; position: relative;}
+		.gzfontop p{ text-align: center; line-height: 2.75rem; font-size: 1.08rem; color: #fff;}
+		.gzfontop img{ position: absolute;top: 0.83rem; right: 0.83rem; width: 0.83rem; display: block;} 
+		.gzmian{ width: 90%; height: 20.4rem; border: solid 1px #cccccc; padding: 0.58rem 0.66rem 0  0.66rem; margin: 0.7rem auto 0 auto;}
+		.gzmian p{width: 100%;height: 100%; overflow: auto; font-size: 0.75rem; color: #666666;}
+		.hide{ display: none;}
+		/*share*/
+		.aharepng{ width: 37%; display: inline-block; float: right; margin-right: 6%;}
+		.gzbox2{ width: 100%; height: 100%;background: rgba(0, 0, 0, 0.7); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);    position: fixed; left: 0;top: 0; z-index: 56;}
+		.wxts{ width: 82%; height: 15.25rem; background: #c02531;}
+		.wxtsfont{ text-align: left;color: #fff; line-height:1.5rem; width:85%; font-size: 1.08rem; margin: 0 auto; }
+		.wxtsfont span{ color: #f3e0b3; padding-left: 0.3rem;padding-right: 0.3rem;  font-size: 1rem; display: block; float: left;}
+		.wxtsfont i{ font-style: normal; font-size: 1.08rem;  display: block; float: left;}
+		.wxts2{ padding-top: 1.5rem; margin: 0 auto; text-align: center; padding-bottom: 1.08rem;}
+		.mtop058{ margin-top: 0.58rem;}
+		.iknow{ width: 80%; margin: 0 auto; background: #f3e0b3; border: none; color: #846138; height: 2.3rem; display: block; margin-top: 1.3rem;appearance:button;-moz-appearance:button;-webkit-appearance:button; border: 0;  }
+		.hidea{display: none;}
+	</style>
+</head>
+<body class="hui">
+	<article class="wrap">
+		<!--cyhd-->
+		<div class="tablebox">
+			<div class="topbt clearfix">
+				<span></span>
+				<h2>参与活动，佣金省多少</h2>
+			</div>
+			<div class="tabmain">
+				<p class="seafont">根据调查，全国股民平均支付佣金费用约30000元</p>
+				<div class="zred"></div>
+				<div class="hbox clearfix">
+					<span>资金</span>
+					<span>万3</span>
+					<span>万2.5</span>
+					<span class="zj">「佣金聚惠」专享</span>
+				</div>
+				<div class="hbox clearfix bornr">
+					<span>资金</span>
+					<span>万3</span>
+					<span>万2.5</span>
+					<span class="zj">「佣金聚惠」专享</span>
+				</div>
+				<div class="hbox clearfix bornr">
+					<span>资金</span>
+					<span>万3</span>
+					<span>万2.5</span>
+					<span class="zj">「佣金聚惠」专享</span>
+				</div>
+				<div class="hbox clearfix bornr">
+					<span>资金</span>
+					<span>万3</span>
+					<span>万2.5</span>
+					<span class="zj">「佣金聚惠」专享</span>
+				</div>
+				<p class="yjjh">参与「佣金聚惠」活动，你的佣金我来买单！</p>
+			</div>
+		</div>
+		<!--cyhd end-->
+		<!--cjwd-->
+		<div class="tablebox">
+			<div class="topbt clearfix">
+				<span></span>
+				<h2>常见问答</h2>
+			</div>
+			<div class="tabmain">
+				<div class="question clearfix">
+					<div class="questionin clearfix mb06 mt083">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">如何查看个股实时行情、K线图及个股F10资料？</div>
+					</div>
+					<div class="questionin  answer clearfix">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">
+							在实时行情中可以分类查询A股、基金及权证的实时行情。可以设置自选股，也可以按个股涨跌幅排序。 单击个股代码可查看实时走势图、K线图及F10个。
+						</div>
+					</div>
+				</div>
+				<div class="question clearfix">
+					<div class="questionin clearfix mb06 mt083">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">如何查看个股实时行情、K线图及个股F10资料？</div>
+					</div>
+					<div class="questionin  answer clearfix">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">
+							在实时行情中可以分类查询A股、基金及权证的实时行情。可以设置自选股，也可以按个股涨跌幅排序。 单击个股代码可查看实时走势图、K线图及F10个。
+						</div>
+					</div>
+				</div>
+				<div class="question clearfix">
+					<div class="questionin clearfix mb06 mt083">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">
+							如何查看个股实时行情、K线图及个股F10资料？K线图及个股F10资料？
+						</div>
+					</div>
+					<div class="questionin  answer clearfix">
+						<div class="qusimg">
+							<img src="images/quesicon.png"/>
+						</div>
+						<div class="qustext">
+							在实时行情中可以分类查询A股、基金及权证的实时行情。可以设置自选股，也可以按个股涨跌幅排序。 单击个股代码可查看实时走势图、K线图及F10个。
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--cjwd end-->
+		<!--gz-->
+		<div class="gzbox hide">
+			
+			<div class="gzfont">
+				<div class="gzfontop">
+					<p>活动规则</p>
+					<img src="images/close.png"/>
+				</div>
+				<div class="gzmian">
+					<p>活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则</p>
+				</div>
+			</div>
+		</div>
+		<!--gz end-->
+		<!--share-->
+		<div class="gzbox2 hide">
+			<img src="images/share.png" class="aharepng"/>
+		</div>
+		<!--share end-->
+		<!--温馨提示-->
+		<div class="gzbox">
+			<div class="wxts">
+				<p class="wxtsfont wxts2">温馨提示</p>
+				<p class="wxtsfont clearfix"><i>开户时必须使用手机号</i><span>13823332333</span><i>才可以获得佣金红包哦！</i></p>
+				<div style="clear:both"></div>
+				<p class="wxtsfont clearfix mtop058"><i>开户完成后，别忘了回来分享个更多的</i><i>朋友，赢取</i><span>0佣金资格！</span></p>
+				<input type="button" value="我知道了" class="iknow">
+			</div>
+		</div>
+		<!--温馨提示 end-->
+	</article>
+</body>
+<script type="text/javascript" src="js/viewport.js"></script>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript">
+$('.gzfontop img').bind('touchend',function(){
+	$('.gzbox').hide();
+})
+$('.w_rule').bind('touchend',function(){
+	$('.hdgz').removeClass('hidea');
+})
+$('.gzfontop img').bind('touchend',function(){
+	$('.gzbox').addClass('hidea');
+})
+$('.w_share .w_khbtn').bind('touchend',function(){
+	$('.gzbox2').removeClass('hidea');
+})
+$('.w_account .w_khbtn').bind('touchend',function(){
+	$('.wxtsaaa').removeClass('hidea');
+})
+$('.iknow').bind('touchend',function(){
+	$('.gzbox').addClass('hidea');
+})
+</script>	
+</html>

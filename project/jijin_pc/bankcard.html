@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<title>我的资产-风险评估</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wdzc_symx.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/bankcard.css">
+        <script type="text/javascript" src="js/jQuery.js"></script>
+        <!--[if IE 6]>
+			<script type="text/javascript" src="./js/DD_belatedPNG_0.0.8a.js"></script>
+			<script type="text/javascript" src="./js/ie6_fixed.js"></script>
+		<![endif]-->
+		
+</head>	
+<body>
+	<div class="wrapper"><!--wrapper-->
+		<!--top-->
+		<div class="ji_header">
+			<div class="ji_username">
+				<div class="ji_userIn">
+					<dl>
+						<dt><img src="images/user_p.png"></dt>
+						<dd><a class="ji_name" href="#">黄玮玮是女士</a>|<a class="ji_exit" href="#">退出</a></dd>
+					</dl>
+				</div>
+			</div>
+
+			<div class="ji_logo">
+				<div class="ji_logoIn">
+					<div class="logo_bz"></div>
+					<p><a href="#">财富账户</a></p>
+				</div>
+			</div>
+			<div class="ji_blue"></div>
+		</div>
+		<!--top end-->
+		<div class="main contentwid">
+			<!--累计收益tab-->
+			<div class="maintop">
+				<ul class="maintopin">
+					<li>基金超市</li>
+					<li>自选基金</li>
+					<li class="check">我的资产</li>
+				</ul>
+			</div>
+			<div class="tabmain">
+				<div class="symx_h clearfix">
+					<div class="symx_hin">
+						
+					</div>
+				</div>
+				
+			</div>
+			<!--累计收益tab end-->
+			<!--级联菜单-->
+			<div class="mainin2 clearfix">
+				<div class="mainleft">
+					<div class="buybox clearfix">
+						<div class="symx_hin2">
+							
+							<p style="width:230px;" class="msyh"><img src="images/msbank.png">全程监管交易资金安全</p>
+							<p style="width:110px;"><img src="images/fkicon.png">银行卡管理</p>
+							
+						</div>
+						<input type="button" value="返回" class="fhback"/>
+					</div>
+					<div class="jjmess">
+						<div class="jjmesscon jjmesscon2 borno">
+							<div class="cardboxa">
+								<div class="cardbox clearfix">
+									<p class="clearfix"><span class="yhnum">平安银行（尾号：<i>1234</i>）</span><span class="dbxe">单笔限额：50万</span><span>单日限额：200万</span></p>
+								</div>
+								<div class="cardbox clearfix">
+									<p class="clearfix"><span class="yhnum">平安银行（尾号：<i>1234</i>）</span><span class="dbxe">单笔限额：50万</span><span>单日限额：200万</span></p>
+								</div>
+							</div>
+							<div class="cardbox2 clearfix">
+									<img src="images/append.png" class="jiah"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mainright">
+					<p class="wxts">温馨提示：</p>
+					<p class="nra3">根据证监会关于基金销售管理的相关规定，我们需要对投资者进行风险等级评测，请根据您的风险偏好确认自己的风险承受力，在基金认申购时，系统会对您的风险承受力和基金的风险等级进行匹配，如果基金风险等级大于您的风险承受力，系统会做出风险提示</p>
+					<!-- <p class="nra3 mtop4">2）除货币基金外，基金的交易价格，以当天日终基金
+					的单位净值为准</p> -->
+				</div>
+			</div>
+			<!--级联菜单 end-->
+		</div>
+		<div class="footer" style="margin-top:112px;">
+			<p>
+				<a href="#">关于我们</a><em></em>
+				<a href="#">免责声明</a><em></em>
+				<a href="#">诚聘英才</a><em></em>
+				<a href="#">联系我们</a><em></em>
+				<a href="#">服务协议</a><em></em>
+				<a href="#">新手帮助</a>
+			</p>
+			<p><span>友情链接：</span><a href="#">中关村在线</a><a href="#">非凡软件</a></p>
+			<p>©2015北京银创科技有限公司</p>
+			<p>京ICP备14010649号-1</p>
+		</div>
+	</div><!--wrapper end
+-->
+<!-- <div class="black" style="display: block;"></div>
+<div class="witebox">
+		<div class="witeboxtop">
+			<div class="topbox">
+				<span>评估结果</span>
+				<img src="images/cha.png" class="cha">
+			</div>
+			<div class="content_m">
+				<p class="fxdj_num">您的风险等级为</p>
+				<p class="leix_num">稳健成长型</p>
+				<input type="button" value="申购" class="back_sh back_shb mart50">
+			</div>
+		</div>
+</div> -->
+</body>
+<script type="text/javascript">
+var vala2=Number($('.allpage').html());
+var vala=Number($('.current').html());
+$('.butboxv').on('click','.prevque.blue',function(){
+	console.log(vala);
+	if(vala!=1){
+		$('.prevque.blue').removeClass('hui').addClass('blue');
+		vala=vala-1;
+		$('.current').html(vala);
+	}else{
+		$('.prevque.blue').removeClass('blue').addClass('hui');
+	}
+});
+$('.butboxv').on('click','.nextque.blue',function(){
+	if(vala+1>1){
+		$('.prevque.hui').removeClass('hui').addClass('blue');
+	}
+	if(vala+1==11){
+		$('.nextque.blue').removeClass('blue').addClass('hui');
+	}
+	if(vala!=vala2){
+		$('.nextque.blue').removeClass('hui').addClass('blue');
+		vala=vala+1;
+		$('.current').html(vala);
+	}else{
+	
+		$('.nextque.blue').removeClass('blue').addClass('hui');
+	}
+
+})
+$('.tuok').click(function(){
+	if(!$(this).hasClass('check')){
+		$(this).addClass('check').siblings().removeClass('check');
+	}else{
+		$(this).removeClass('check').siblings().addClass('check');
+	}
+	
+})
+$('.wsy').click(function(){
+	$(this).addClass('check').siblings('.wsy').removeClass('check');
+})
+function oll(eve){
+	$('.witebox').css("display",eve);
+	$('.black').css("display",eve);
+}
+$('.wsy').dblclick(function(){
+	var money=$(this).find('i').html();
+	$('.qsaop').html(money);
+	oll('none');
+
+})
+
+$('.cha').click(function(){
+	oll('none')
+})
+$('.xgred').click(function(){
+	oll('block');
+})
+</script>
+</html>

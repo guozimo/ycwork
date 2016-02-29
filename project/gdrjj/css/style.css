@@ -1,0 +1,111 @@
+a{color:#000}
+/*投资研究院*/
+.mediaBox p{padding:20px 0;height:30px;border-bottom:1px solid #ddd;color:#333;font-size:18px;line-height:30px}
+.mediaBox p span{float:left}
+.mediaBox p span a{overflow:hidden;width:725px;height:30px;color:#333;text-overflow:ellipsis;white-space:nowrap;line-height:30px}
+.mediaBox p span i{display:inline-block;overflow:hidden;margin-left:10px;width:24px;height:9pt;background:url(../images/i-comons.png) no-repeat -6pc -71px;vertical-align:middle}
+.mediaBox p em{float:right;color:#666;font-size:14px}
+.media2Box{padding-bottom:50px}
+.media2Box p{text-indent:35px;font-size:1pc;line-height:25px}
+.media2Box h3{margin:20px 0;text-align:center;font-size:26px}
+.media2Box h4{margin:30px 0;font-weight:700;font-size:18px}
+/*下载中心*/
+.usBox{margin-top:20px}
+.usList{padding:15px;border-bottom:1px solid #c7c7c7}
+.usList.bgColor,.usList:hover{background:#f2f2f2}
+.usList h3{color:#7a1e1e;font-weight:700;font-size:1pc}
+.usList p{margin-top:5px;font-size:14px;line-height:25px}
+.softBox{padding-bottom:30px}
+.softTopBox{margin-top:30px}
+.softTopBox a{display:inline-block;margin-right:30px;padding:0 5px;border-bottom:2px solid #fff;font-weight:700;font-size:14px}
+.softTopBox a.active,.softTopBox a:hover{border-bottom:2px solid #9d2628;color:#9d2628}
+.softImg{margin-top:10px}
+.softImg img{height:170px}
+.downList{display:none}
+.softTabList{padding:10px 0;border-bottom:1px solid #c7c7c7}
+.leftImg{float:left;width:180px;height:75pt}
+.leftImg img{display:inline-block;width:178px;height:98px;border:1px solid #c7c7c7}
+.contTxt{float:left;margin-left:20px;width:445px}
+.contTxt h3{width:445px;height:30px;color:#333;font-size:18px}
+.contTxt h3 a{display:inline-block}
+.contTxt h3 a,.contTxt p{overflow:hidden;width:445px;height:30px;text-overflow:ellipsis;white-space:nowrap;line-height:30px}
+.contTxt p{font-size:14px}
+.rightBtn{float:right}
+.rightBtn a{display:inline-block;margin-top:30px;width:10pc;height:44px;background:url(../images/downBtn.jpg) no-repeat 0 -44px}
+.rightBtn a:hover{background:url(../images/downBtn.jpg) no-repeat 0 0}
+.rightBtn.downBtn a{display:inline-block;margin-top:30px;width:10pc;height:44px;background:url(../images/downBtn.jpg) no-repeat 0 -99pt}
+.rightBtn.downBtn a:hover,.rightBtn.downBtn a.on{background:url(../images/downBtn.jpg) no-repeat 0 -88px}
+.grayBg{top:0;left:0;z-index:100;width:100%;height:100%}
+.ewmshareBox,.grayBg{position:fixed;display:none;background:rgba(0,0,0,.4);position:absolute;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)}
+.ewmshareBox{top:50%;left:50%;z-index:200;margin-top:-162px;margin-left:-142px;width:285px;height:325px;position: fixed;_position: absolute;}
+.ewmshareBox img{display:block;margin:50px auto 0}
+.ewmshareBox a{position:absolute;top:10px;right:10px;display:inline-block;width:2pc;height:2pc;background:url(../images/close.png) no-repeat}
+/*用户指南*/
+.main-leftBox{width:222px;}
+.qhLists{background:#7a1e1e;}
+.qhLists li{height:55px;line-height:55px;background:#7a1e1e;}
+.qhLists li.active{background:#fff;width:232px;}
+.qhLists li.active a{color:#7a1e1e;background:none;}
+.qhLists li a{margin:0 auto;display:block;width:180px;text-align: center;font-size:16px;height:55px;line-height:55px;color:#fff;overflow:hidden;background:url(../images/line02.jpg) no-repeat center bottom;}
+.main-RightBox{background:#fff;}
+.tb-Box{padding:0 24px;width:920px;overflow:hidden}
+.zhixiang{margin:5px 15px 0 0;}
+.zhixiang a{color:#666}
+.tushi{margin:50px auto 50px;width:750px;}
+/*分享*/
+.shareBox{float:right;margin-bottom:30px; margin-right: 25px;}
+.shareBox ul{overflow:hidden}
+.shareBox ul li{float:left;margin-right:10px;}
+.shareBox ul li span{margin-top:10px;display:block}
+.shareBox ul li a{background:url(../images/i-comons.png) no-repeat;width:30px;height:34px;display:block;}
+.shareBox ul li a.wechat{background-position: -143px -395px;}
+.shareBox ul li a.weibo{background-position: -179px -395px;}
+.shareBox ul li a.qzone{background-position: -214px -395px;}
+.twoMode ul{overflow:hidden;margin:57px 0}
+.twoMode ul li.shipan{float:left;margin-right:35px;}
+/*公司简介*/
+.profileBox{padding:20px 0;margin-bottom: 100px;}
+.profileBox p{font-size: 16px;color: #333333;text-indent: 30px;margin-top: 20px;line-height: 25px;}
+/*广贵动态*/
+.dynaLists {margin-top:30px;}
+.dynaLists li{margin-bottom:20px;padding-bottom: 18px;border-bottom:1px solid #ddd;}
+.infroBox{height:100px;width:710px;}
+.infroBox a.ww{display:block;height:100px;}
+.infroBox .tit a{color:#333;font-size:18px;font-weight:bold;}
+.infroBox .tit{margin-bottom:10px;}
+.detTxt a,.detTxt .times{color:#666}
+.detTxt .times{font-size:12px;margin-left:40px;}
+.infroBox .tit a .new{background:url(../images/i-comons.png) no-repeat;width: 24px;height: 12px;overflow: hidden;background-position: -96px -71px;display: inline-block;margin-left:10px;*vertical-align: 5px;}
+.shareDep{margin-top:18px;}
+.shareDep a{background:url(../images/share_icon.png) no-repeat;width:25px;height:24px;display:inline-block;margin-right:12px;background-position:-25px 0;}
+.shareDep a:hover{background-position: 0 0;}
+.shareDep a:hover.s_Btn02{background-position: 0 -24px;}
+.shareDep a:hover.s_Btn03{background-position: 0 -48px;}
+.shareDep a.s_Btn02{background-position:-25px -24px;}
+.shareDep a.s_Btn03{background-position: -25px -48px;}
+/*产品要素*/
+.displayBox{margin-top:40px;}
+.displayBox ul{overflow:hidden;padding-bottom: 35px;border-bottom:1px solid #ddd;}
+.displayBox ul li{float:left;width:260px;margin:0 70px 40px 0}
+.displayBox ul li.spe{margin-right:0;}
+.displayBox ul li a.linkOne{display:block;}
+.noteOne .cp-name{font-size:18px;color:#7a1e1e;font-weight:bold;}
+.noteOne{padding:10px 0;line-height:18px;}
+.noteOne .more{float:right;color:#666}
+.noteTwo p{line-height:25px;}
+
+/*网上开户*/
+.openBox{margin-top: 90px; padding-bottom: 50px;}
+.openBox div{margin-left: 140px;}
+.openBox p{margin-bottom: 15px;}
+.openBox p.yzmBox input{width: 140px; }
+.openBox p.yzmBox img{vertical-align:middle; margin:0 10px;}
+.openBox p.yzmBox a{text-decoration: underline; color: #417ED0;}
+.openBox p span{display: inline-block; width: 115px; text-align: right; margin-right: 20px;}
+.openBox p input{width: 260px; height: 22px; line-height: 22px; outline: none;font-size: 12px; text-indent:5px; color: #ccc;}
+.openBox p input.radio{width: auto; vertical-align: middle;margin:0 10px;}
+.openBox p select{width: 85px;height: 22px;margin-right: 10px;}
+.openBox p em{margin:0 10px;}
+.openBox p.subBtn{padding-left: 135px; margin-top: 50px;}
+.openBox p.subBtn a{width: 158px; height: 40px; line-height: 40px;font-size: 16px;font-weight: bold; display: inline-block; background: #eabc79; border:1px solid #9e7024; text-align: center; color: #FFFFFF;}
+.openBox p.subBtn a:hover{background: #e97575; border:1px solid #9e2a2a;}

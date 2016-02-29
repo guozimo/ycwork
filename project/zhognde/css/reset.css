@@ -1,0 +1,103 @@
+/* 
+文件名:reset.css
+版本:v0.1
+作者: 郑晗
+创建时间:2013-10-25
+修改人：郑晗
+上一次修改时间: 2013-10-25
+修改标示:@
+修改描述:
+*/
+
+/* 
+Filename:reset.css
+Version:v0.1
+Author: Krouky
+CreateTime:2013-10-25
+Modified ：Krouky
+Last Modified Time: 2013-10-25
+Modified Mark:@
+Modified Describ:
+*/
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "\5FAE\8F6F\96C5\9ED1",arial,sans-serif;
+    font-size: 12px;
+    zoom:1;
+}
+body{behavior:url(css/csshover.htc);} 
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+	display: block;
+}
+
+fieldset, img{border: 0;}
+
+address, caption, cite, code, dfn, em, strong, th, var, i{font-style: normal; font-weight: normal;}
+
+
+ul,ol,li{list-style-type:none;}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+input, select {
+    vertical-align: middle;
+}
+
+.clearFix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearFix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearFix { height: 1%; }
+.clearFix { display: block; }
+/* End hide from IE-mac */

@@ -1,0 +1,146 @@
+*{ margin: 0;padding: 0; list-style: none;}
+body{background: #fafafa;}
+/*渐变*/
+.jb{background: #0095d4;background: -moz-linear-gradient(left, #0095d4 0%, #1ba6d7 50%,#0095d4 100%); background: -webkit-gradient(linear, left top, center bottom, right bottom, color-stop(0%,#0095d4), color-stop(50%,#1ba6d7), color-stop(100%,#0095d4));background: -webkit-linear-gradient(left, #0095d4 0%, #1ba6d7 50%,#0095d4 100%);background: -o-linear-gradient(left, #0095d4 0%, #1ba6d7 50%,#0095d4 100%);background: -ms-linear-gradient(left, #0095d4 0%, #1ba6d7 50%,#0095d4 100%);background: linear-gradient(to right, #0095d4 0%,#1ba6d7 50%,#0095d4 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d4',endColorstr='#1ba6d7',GradientType=0 );}
+:root .jb{filter:none;}
+/*渐变*/
+/*top*/
+.top{ width: 100%; height: 52px; border-bottom: solid 9px #ededed;}
+
+.contentwid{ width: 1000px;margin: 0 auto;}
+.logo{ height: 62px; padding-top: 14px;}
+.logoimg{ display: block; float: left;}
+.logo h2{ font-size: 20px; height: 20px; line-height: 20px; padding-top: 23px; color: #666666; float: right;}
+.zfzh{ width: 80px; position: relative; height: 62px; float: right;}
+.zfzh img{ position: absolute; left: 32px; bottom: 0;}
+/*top end*/
+/*累计收益*/
+/*累计收益tab*/
+.maintop{ padding-top: 50px; height: 51px; border-bottom: solid 1px #dddddd; position: relative;}
+.maintopin{ position: absolute; left: 0; bottom: -1px; width: 422px; height: 52px;}
+.maintopin li{ width: 130px; height: 50px; cursor: pointer; border: solid 1px #dddddd; float: left; line-height: 50px; text-align: center; color: #333333; margin-right: 8px; background: #fff;}
+.maintopin li.check{ border-bottom: solid 1px #fff; color: #00aaee;}
+/*累计收益tab end*/
+.tabmain{ width: 998px; border: solid 1px #dddddd; border-top: none; background: #fff;}
+.ljsy{ width: 980px; height: 66px; display: inline-block; margin-bottom: 7px; margin-top: 10px; margin-left: 9px; font-size: 18px;color: #fff; font-weight: bold; text-align: center; padding-top: 34px; font-size: 56px;color: #f74a48; line-height: 56px;}
+.ljsy i{ font-style: normal;}
+.ljsy span{ font-size: 18px;color: #fff; line-height: 18px;}
+.symx_h{ width: 989px; padding-top: 20px;}
+.symx_hin{width: 82px; float: right;}
+.symx_hin img{ float: left;}
+.symx_hin p{ float: right; width: 73px; text-align: right; font-size: 16px; color: #00aaee; font-weight: bold; line-height: 18px;}
+.mainin{ width: 1000px;}
+/*累计收益 end*/
+/*级联菜单*/
+.datebox{ width: 1000px;}
+.date_top{ width: 100%; height: 36px; margin-top: 10px; background: #a9a9a9; cursor: pointer;}
+.check .date_top{background: #f74a48;}
+.check .date_top .jtbox img{ margin-top: -13px;}
+.date_rq{ float: left; font-size: 18px; color: #fff; line-height: 36px; padding-left: 10px; width:160px; font-weight: normal;}
+.jiajian{ float: right;}
+.jiajian .jtbox{ float: right; display: block; padding-right: 9px; width: 12px;height: 7px; overflow: hidden; margin-top: 14px; margin-left: 25px;}
+.jiajian p{ float: right; line-height: 36px;font-size: 18px; color: #fff; font-weight: normal;}
+.datemain{ width: 965px; border: solid 1px #ededed; border-top: none; margin: 0 auto; padding-bottom: 13px;}
+.datemain li{ width: 916px; height: 40px; padding-left: 2px; padding-right: 14px; margin: 0 auto; border-bottom: solid 1px #ededed; overflow: hidden;}
+.datemain li p{ font-size: 16px; color: #666666; line-height: 40px;}
+.gpname{ float: left; width: 390px; overflow: hidden;}
+.ondown{ width: 135px; float: right; text-align: right;}
+.datebox .datemain{ display: none;}
+.datebox.check  .datemain{ display: block;}
+/*级联菜单 end*/
+/*分页*/
+.fybox{ width: 1000px; height: 30px; background: #f1f1f1; border-top: solid 1px #dddddd;border-bottom: solid 1px #dddddd; margin-top: 23px; margin-bottom: 112px;}
+.fyboxin{ float: right;}
+.ys,.rbox,.fyboxin a.wy{float: right;}
+.fyboxin input{ width: 52px; height: 22px; display: block; color: #fff; line-height: 22px; text-align: center; font-size: 12px;}
+.fyboxin a{height: 20px; padding-left: 7px; padding-right: 7px; display: block;  line-height: 20px; text-align: center; font-size: 12px; color: #999999;}
+.fyboxin a.check{background: #00aaee; color: #fff; border: solid 1px #069dd9;}
+.fyboxin a{ float: left;}
+.fyboxin input,.fyboxin a{ cursor: pointer; border: none;}
+.fyboxin input{background: #00aaee; margin-top: 4px; border: solid 1px #069dd9;}
+.fyboxin a{ margin-top: 5px;}
+.fyboxin input.prev{margin-right: 12px;display: inline-block;}
+.fyboxin input.next{ margin-left: 12px;}
+.fyboxin a.wy{ font-size: 14px; color: #00aaee; line-height: 22px; margin-left: 10px;}
+/*分页 end*/
+/*home*/
+.myzc_tu{ background: url(../images/myzc_tu.png) no-repeat; margin-left: 10px; display: inline-block; margin-top: 40px; width: 980px; height: 301px;}
+.dl_list{padding-top: 70px; padding-bottom: 208px;}
+.dllist1{ padding-left: 92px; width: 150px; padding-right: 89px; text-align: center; float: left;}
+.zzcdz{ font-size:16px;color: #999999; line-height: 62px;}
+.zzcs{ font-size: 30px; color: #6bc3f3; height: 30px; padding-bottom: 30px;}
+.mxzc{ cursor: pointer; height: 14px; line-height: 14px;}
+.mxzc a{font-size: 14px; color: #333333;}
+.mxzc span{ font-size: 12px; color: #6bc3f3;}
+.mxmx{ height: 82px; border-right: 1px solid #dddddd; float: left; margin-top: 40px;}
+.dllist1 dl{ cursor: pointer;}
+.dllist1 dd{ font-size: 18px; color: #6bc3f3; font-weight: bold; line-height: 18px; padding-top: 27px;}
+.hbljsy{ font-size: 18px; line-height: 18px; padding-top: 65px; padding-bottom: 53px; color: #fff; text-align: center; font-weight: bold;}
+.aanum{ font-size: 56px;color: #f74a48; line-height: 56px; text-align: center; font-weight: bold;}
+.hbjjzr{ font-size: 16px; color: #fff; text-align: center; line-height: 26px; padding-top: 24px;}
+.hbjjzr i{ color: #e83b3b; font-size: 26px; font-style: normal;}
+/*home end*/
+/*基金超市申购*/
+.mainin2{ width: 998px; background: #f6f6f6; border: solid 1px #dddddd; border-top: none;}
+.mainleft{ float: left; width: 700px;}
+.mainright{ float: right; width: 290px; padding-top: 42px;}
+.buybox{ width: 100%; height: 42px;}
+.symx_hin2{ float: left; margin-top: 12px; padding-left: 32px;}
+.symx_hin2 img{ float: left;}
+.symx_hin2 p{ width: 40px;padding-left: 10px; text-align: right; font-size: 16px; color: #00aaee; font-weight: bold; line-height: 18px;}
+.xzback{width: 100px; height: 20px; border: solid 1px #069dd9; background: #00aaee; color: #fff; font-size: 14px; cursor: pointer; float: right;display: block; margin-top: 10px; border-radius: 3px; -webkit-border-radius: 3px;-moz-border-radius: 3px;-o-border-radius: 3px;}
+.jjmess{ width: 700px; height: 687px; background: #fff;}
+.wxts{ width: 100%; font-size: 14px;color: #444444; line-height: 20px; padding-bottom: 4px;}
+.nra3{ font-size: 12px; color: #666666; line-height: 24px;}
+.mtop4{ margin-top: 4px;}
+.jjmesscon{ width: 638px; border-bottom: solid 1px #f0f0f0; margin: 0 auto;}
+.jjxxh{ font-size: 16px; color: #333333; line-height: 54px;}
+.nameans{ text-align: center; padding-bottom: 19px;}
+.jjname{ font-weight: bold; color: #333333; font-size: 14px;}
+.hxjx{ font-size: 14px; color: #333333; padding-left: 18px;}
+.hxcode{ font-size: 14px; color: #67c0f0; font-weight: bold; padding-left: 24px;}
+.p0{ padding: 0;}
+.buymoney{ width: 320px; margin:0 auto;}
+.buyleft{ float: left; width: 75px;}
+.buyleft p{ font-size: 14px; color: #333333; font-weight: bold; line-height: 40px; height: 40px;}
+.buyright{ float: left;}
+.gmjetext{ width: 230px; height: 40px; line-height: 40px; font-size: 12px; display: block; border: solid 1px #dddddd; padding-left: 12px; color: #999999;}
+.redbag{ width: 243px; height: 30px; margin-top: 9px;}
+.redbagleft{ width: 66px; height: 27px; padding-top: 3px; float: left;}
+.redbagright{ float: right;}
+.redbagright input{ width: 160px; height: 28px; line-height: 28px; border: solid 1px #dddddd;}
+.tuok{ float: left;}
+.tuok img{ display: block; cursor: pointer;}
+.redbag2{ float: left; font-size: 14px; color: #666666; width: 30px; padding-left: 6px;}
+.tuok img.checkno{display: none;}
+.tuok.check .checkno{ display: block;}
+.tuok.check .checkok{ display: none;}
+.wid100{ width: 100%;}
+.wid115{ width: 155px;}
+.redbag2 a{padding-left: 20px; color: #42b7f0; text-decoration: underline; cursor: pointer;}
+.p15{padding-bottom: 15px;}
+.ssfont{ color: #333333; font-size: 14px;}
+.wid200{ width: 200px;}
+.borno{ border: none;}
+.nextbut{ width: 100px; height: 36px; font-size: 14px; color: #fff; cursor: pointer; background: #00aaee; border: solid 1px #069dd9; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px;}
+.floatbox{ width: 460px; height: 354px; display: none; background: #fff; border: solid 1px #b0b0b0; position: fixed; left: 50%; margin-left: -230px; z-index: 10; top: 50%;margin-top: -177px;}
+.black{ background: #000;filter:alpha(opacity=40); display: none; 
+opacity:0.4;  width: 100%; height: 100%; position: fixed;z-index: 9; left: 0; top: 0;}
+.topbox{ width: 100%; height: 50px; background: #f9f9f9;}
+.topbox span{ font-size: 16px; color: #00aaee; font-weight: bold; line-height: 50px; padding-left: 10px;}
+.topbox img{ float: right; cursor: pointer; display: inline-block;margin-right: 16px; margin-top: 16px;}
+.mainfloat{ width: 445px; height: 298px; margin-left: 10px;overflow-y:auto;}
+.wsy{ width: 418px; height: 78px; cursor: pointer; border: solid 1px #dddddd; margin-top: 10px;}
+.qsmoney{ width: 262px; overflow: hidden; padding-left: 10px; float: left; padding-right: 10px; height: 78px;}
+.qs_num{ font-size:20px;  line-height: 44px; height: 44px; overflow: hidden; color: #00aaee; padding-top: 10px; padding-bottom: 0px;}
+.qs_num span{ font-size: 44px; color: #00aaee; line-height: 44px;}
+.qs_num span i{ font-style: normal; font-size: 40px; font-weight: bold;}
+.gz{ font-size:12px; color: #999999; }
+.yxqdate{ width: 128px; text-align: center; float: right;}
+.yxqa{ line-height: 34px; margin-top: 10px; font-size: 16px; color: #00aaee; text-align: center; font-weight: bold;}
+.dateae{ font-size: 14px;color: #444444; font-weight: bold;}
+.nhz{ width: 414px; height: 74px; background: #fff; border: solid 1px #fff; margin-left: 1px; margin-top: 1px;}
+.check .nhz,.check.wsy{border: solid 1px #00aaee;}
+.check.wsy{ background: #dddddd;}
+.xgred{ cursor: pointer;}
+/*基金超市申购 end*/

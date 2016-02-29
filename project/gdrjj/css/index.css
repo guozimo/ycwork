@@ -1,0 +1,45 @@
+/*to-top*/
+body{background:#f5f5f5;}
+.productEle,.announce{background:#fff;border:1px solid #e2e2e2}
+.goodBox{display:none}
+.productEle{width:788px;height:348px;}
+.announce{width:380px;height:348px;overflow:hidden}
+
+.tabChange{position:relative;}
+.qhTitle{position:absolute;top:0;left:394px;}
+.qhTitle li{background:#ddd;width:30px;height:90px;margin-bottom:6px;color:#000;overflow:hidden;cursor: pointer;color:#666}
+.qhTitle li.on{background:#950000;color:#fff;}
+.qhTitle li span{font-size:16px;display:block;margin:10px auto 0;vertical-align: middle;text-align: center;}
+.qhTitle li.spe span{margin-top:20px;}
+.picBox {padding:20px 13px 16px 20px;border-right:1px solid #ddd;}
+.detilsBtn{color:#950000;margin-left:20px;}
+.newLists{padding:0 15px;margin-top:10px;}
+.newLists li{overflow:hidden;height:40px;line-height: 40px;_margin-top:-3px}
+.newLists li a{display:block;height:36px;color:#333;font-size:16px;}
+.newLists li a span{position:relative}
+.newLists li a em{font-size:12px;}
+.newLists li a .new{background:url(../images/i-comons.png) no-repeat;width:24px;height:12px;overflow:hidden;background-position: -96px -71px;display:block;position:absolute;right:-32px;top:15px;}
+/*section02*/
+.newBox,.trendBox,.dissertation{width:379px;height:438px;background:#fff;}
+.trendBox{margin-left:29px;}
+.projectBox{padding:20px 20px 0 20px;}
+.xinwen,.dongtai{margin-top:10px;}
+.xinwen li,.dongtai li{line-height:40px;height:40px;_margin-top:-2px}
+.xinwen li a,.dongtai li a{color:#666;line-height:40px;height:40px;display:block}
+.vidioBox{position:relative;}
+.zhuanti{padding:10px 20px 0 20px;}
+.zhuanti li{margin-bottom:18px;overflow: hidden;height:80px;}
+.vidioBox a{display:block;width:120px;position:relative;cursor: pointer;}
+.menban{position:absolute;top:0;left:0;width:120px;height:75px;opacity:0.3;filter:alpha(opacity=30);background:#000}
+.play{background:url(../images/i-comons.png) no-repeat;width:43px;height:43px;background-position:-192px -68px;display:block;position:absolute;top:50%;left:50%;margin-top:-22px;margin-left:-22px;}
+.xiangqin{width:202px;}
+.xiangqin p{font-size:16px;line-height:25px;}
+.xiangqin a{display:block;color:#333;}
+.message{margin-top:10px;}
+.message .sign{background:url(../images/i-comons.png) no-repeat;width:24px;height:12px;background-position: -96px -71px;margin-top:4px;overflow: hidden;}
+.message .time{font-size:12px;}
+.mb{display:none;}
+.rlTxt{display:block;margin:10px 0 0 10px;height:40px;line-height: 40px;font-size:20px;}
+/*setion04*/
+.leftBox,.centerBox,.rightBox{width:379px;height:278px;background:#fff;}
+.centerBox{margin-left:30px;margin-top: 25px;}

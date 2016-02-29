@@ -1,0 +1,147 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+/*
+ * 头部
+ */
+header {
+  width: 100%;
+  height: 3.54166667rem;
+  background: url(../images/head_bg.jpg) no-repeat;
+  background-size: 100% 100% ;
+}
+header h3 {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  line-height: 3.54166667rem;
+  text-align: center;
+}
+header h3 a.left_btn {
+  width: 1.66666667rem;
+  height: 1.66666667rem;
+  float: left;
+  left: 0.83333333rem;
+  top: 0.83333333rem;
+  position: absolute;
+  display: inline-block;
+  background: url(../images/top_left.png) no-repeat;
+  background-size: 100% 100% ;
+}
+header h3 a.menu_btn {
+  width: 1.5rem;
+  height: 1.16666667rem;
+  float: right;
+  position: absolute;
+  right: 0.83333333rem;
+  top: 1.04166667rem;
+  display: inline-block;
+  background: url(../images/top_menu.png) no-repeat;
+  background-size: 100% 100% ;
+}
+header h3 a.right_home {
+  width: 1.70833333rem;
+  height: 1.58333333rem;
+  float: right;
+  position: absolute;
+  right: 2.91666667rem;
+  top: 0.83333333rem;
+  display: inline-block;
+  background: url(../images/home.png) no-repeat;
+  background-size: 100% 100% ;
+}
+/*
+ * 分享
+ */
+.pop_bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.popUpBox {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  padding-top: 1.66666667rem;
+  background: #FFFFFF;
+  display: none;
+}
+.share_list {
+  margin: 0 1.04166667rem;
+}
+.share_box dl {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-bottom: 1rem;
+}
+.share_box dl a {
+  display: inline-block;
+}
+.share_box dl img {
+  width: 3.66666667rem;
+  height: 3.66666667rem;
+  display: block;
+}
+.share_box dl dt {
+  display: inline-block;
+}
+.share_box dl dd {
+  font-size: 0.83333333rem;
+  color: #7d7d7d;
+  margin-top: 0.625rem;
+}
+.share_btn {
+  display: block;
+  text-align: center;
+  float: inherit;
+}
+.share_btn a {
+  width: 80%;
+  margin: 1.66666667rem auto;
+  display: inline-block;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  color: #FFFFFF;
+  font-size: 1.16666667rem;
+  background: #fd822b;
+  border-radius: 5px;
+}
+.moreBox a {
+  width: 100%;
+  display: block;
+  height: 3.54166667rem;
+  line-height: 3.54166667rem;
+  position: relative;
+  background: #FFFFFF;
+  border-bottom: 1px solid #eaeaea;
+}
+.moreBox a.top {
+  margin-top: 0.83333333rem;
+  border-top: 1px solid #eaeaea;
+}
+.moreBox a span {
+  font-size: 1.08333333rem;
+  color: #666666;
+  margin-left: 0.83333333rem;
+}
+.moreBox a em {
+  position: absolute;
+  right: 0.83333333rem;
+  top: 0.83333333rem;
+  display: inline-block;
+  width: 0.58333333rem;
+  height: 1.16666667rem;
+  background: url(../images/right_img.png) no-repeat;
+  background-size: 100% 100% ;
+}

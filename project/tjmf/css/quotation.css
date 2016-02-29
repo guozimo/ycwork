@@ -1,0 +1,109 @@
+/**
+ * @author:GHD
+ * @createTime:2016/2/17
+ * @endTime:2016/2/17
+ */
+ body{
+ 	background: url(http://ys.mfstatic.com/project/tjmf/images//bodybg.png) repeat;
+ }
+.q_content{
+	width: 840px;
+	padding: 0 39px;
+	height: 600px;
+	margin: 20px auto 0;
+	border: 1px solid #686868;
+	background: #3b3b3b;
+}
+.q_content h2{
+	width: 342px;
+	height: 39px;
+	margin-top: 1px;
+	border-bottom: 1px solid #7e7e7e;
+}
+.q_content h2 span{
+	display: inline-block;
+	width: 114px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #999;
+	font-size: 18px;
+	cursor: pointer;
+}
+.q_content h2 span.q_on{
+	background: url(../images/hbg.png) no-repeat;
+	color: #eea13e;
+}
+
+
+.q_tabbox{
+	margin-top: 20px;
+}
+.q_tabitems{
+	display: none;
+}
+.q_tabshow{
+	display: block;
+}
+.q_charts{
+	height: 380px;
+	margin-bottom: 20px;
+	background: #4e4e4e;
+}
+.q_niu{
+	width: 398px;
+	height: 110px;
+	border: 1px solid #686868;
+	overflow: hidden;
+	float: left;
+}
+.q_niupic,.q_xiongpic{
+	width: 119px;
+	height: 110px;
+	float: left;
+	font-size: 68px;
+	text-align: center;
+	color: #fff;
+	/* background: url(../images/niup.png) center center no-repeat; */
+}
+.q_niupic2{
+	color: #ec6666;
+	/* background: url(../images/niup2.png) center center no-repeat; */
+}
+.q_niutxt{
+	width: 235px;
+	height: 110px;
+	padding-left: 30px;
+	float: left;
+	background: url(../images/borders.png) left center no-repeat;
+	overflow: hidden;
+}
+.q_niutxt p{
+	margin-top: 8px;
+	line-height: 20px;
+}
+.q_xiong{
+	float: right;
+}
+.q_xiongpic{
+	/* background: url(../images/xiongp.png) center center no-repeat; */
+}
+.q_xiongpic2{
+	color: #7cbe5f;
+	/* background: url(../images/xiongp2.png) center center no-repeat; */
+}
+.cl_white{
+	color: #bdbdbd;
+}
+.cl_red{
+	color: #ec6666;
+}
+.cl_blue{
+	color: #417ed2;
+}
+.cl_green{
+	color: #7cbe5f;
+}
+.cl_yellow{
+	color: #c3873d;
+}

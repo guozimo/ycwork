@@ -1,0 +1,522 @@
+/*html{
+    font-size: 62.5%;
+}*/
+body{
+    background: #fdf6eb;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height:3.3rem ;
+    background: #fdf7eb;
+}
+.navList{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+    height: 3.3rem;
+}
+.navList li{
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    -o-box-flex:1;
+    -ms-box-flex:1;
+    line-height: 3.3rem;
+    text-align: center;
+    color:#333 ;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+/*我的预测*/
+
+.banner{
+    width: 100%;
+    border-bottom: 1px solid #eedec7;
+    padding-bottom: 1rem;
+
+}
+.banner img{
+    width: 100%;
+    border: none;
+    display: block;
+}
+
+.navList li.on{
+    border-bottom: 2px solid #e75945;
+    color:#e75945 ;
+}
+.newStock{
+    width: 100%;
+    background: #fff;
+   /* padding: 0 3.2%;*/
+
+}
+.tockBox{
+    position: relative;
+
+}
+.newstockList{
+    padding:0 3.2%;
+
+}
+
+.newstockList li{
+    height: 3.8rem;
+    width: 50%;
+    float: left;
+    line-height: 3.8rem;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #eaeaea;
+}
+.newstockList li:nth-child(2){
+    text-align: right;
+}
+.linebg{
+    display: block;
+    width:.5rem;
+    height: 2rem;
+    background:#e75945;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+
+}
+
+/*.tablebox tr td:nth-child(4){
+    text-align: right;
+}*/
+.tablebox table{
+    width: 100%;
+}
+.tablebox{
+    width: 100%;
+    padding:0 3.2%;
+}
+.tablebox tr td{
+    height: 3.8rem;
+    line-height: 3.8rem;
+   font-size: 1.4rem;
+}
+.tablebox tr td:nth-child(1){
+    width: 30%;
+    vertical-align: middle;
+}
+.tablebox tr td:nth-child(2){
+    width: 30%;
+}
+.tablebox tr td:nth-child(3){
+    width: 20%;
+}
+.tablebox tr td:nth-child(4){
+    width: 20%;
+
+}
+.myChoice{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    height: 2.6rem;
+    background: #e75945;
+    text-align: center;
+    line-height: 2.6rem;
+    color: #fff;
+    border-radius: .5rem;
+   margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.tablebox tr td span{
+    display: block;
+}
+.tablebox tr{
+    border-bottom: 1px solid #eaeaea;
+}
+.tablebox tr td.raise{
+    color: #e75945;
+}
+.bank{
+    display: block;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.coding{
+    font-size: 1.2rem;
+    color: #999;
+}
+.tablebox tr td.drop{
+    color: #5ac355;
+}
+.myPrediction{
+    width: 5.5rem;
+    height: 5.5rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -2.5rem;
+}
+.myPrediction a img{
+    width: 100%;
+    border: none;
+    display: block;
+}
+.tapBox{
+    position: relative;
+}
+/*tap切换的时候*/
+.preLi>li{
+    display: none;
+}
+
+.preLi li.predictionLi{
+    display: block;
+}
+.tapBox{
+    border-top: 1px solid #eedec7;
+}
+/*英雄榜*/
+.heroBox{
+    width: 100%;
+    background: #fff;
+
+}
+.rankTitle{
+    width: 93.8%;
+    border-bottom: 1px solid #eaeaea;
+   margin: 0 auto;
+    height: 3.8rem;
+
+}
+.rankTitle h2{
+    float: left;
+    line-height: 3.8rem;
+    font-size: 1.6rem;
+    color: #666;
+}
+.rankTitle a{
+    float: right;
+    line-height: 3.8rem;
+    font-size:1.5rem ;
+    color: #e75945;
+    display: block;
+    width: 5rem;
+    text-align: right;
+}
+.rank{
+    position: relative;
+}
+.rankTitle span{
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.heroTable{
+    width: 100%;
+    padding: 0 3.2%;
+}
+.heroTable table{
+    width: 100%;
+}
+.heroTable tr{
+    border-bottom: 1px solid #eaeaea;
+}
+.heroTable tr td{
+    height: 3.8rem;
+    line-height: 5.8rem;
+    font-size: 1.4rem;
+}
+.heroTable tr td:nth-child(1){
+    width: 67%;
+    vertical-align: middle;
+}
+.heroTable tr td:nth-child(2){
+    width: 16%;
+    color: #e75945;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.heroTable tr td:nth-child(3){
+    text-align: right;
+    width: 17%;
+    vertical-align: middle;
+}
+.heroTable img{
+    width: 100%;
+    border: none;
+    display: block;
+}
+.name{
+    padding: 1rem 0;
+}
+.name dt{
+    width:4.1rem ;
+    float: left;
+}
+.name dd{
+    float: left;
+    margin-left: .6rem;
+}
+.addBtn a{
+    display: block;
+    width: 3.3rem;
+    height: 2.1rem;
+    background: url("../images/addition.png") no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    float: right;
+
+}
+.name dd h2{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-right: .4rem;
+}
+.name dd p{
+    font-size: 1.2rem;
+    color: #999;
+    margin-top: 1rem;
+}
+.name dd h2 span{
+    width: 1.5rem;
+    display:inline-block;
+    height: 1.8rem;
+    background:url("../images/luckly.png") no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+}
+.heroBox02{
+    margin-top: 1rem;
+    border-top: 1px solid #eaeaea;
+}
+
+
+/*最新预测*/
+.newPre{
+    width: 100%;
+    background: #fff;
+}
+.newpredBox{
+    width: 100%;
+    padding: 0 3.2%;
+    margin: 0 auto;
+
+}
+.newpredBox table{
+   width: 100%;
+
+}
+.newpredBox tr {
+    border-bottom: 1px solid #eaeaea
+}
+.newpredBox tr td{
+    width: 25%;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    font-size: 1.3rem;
+    color: #666;
+}
+.tablehead tr td{
+  text-align: center;
+}
+.tablehead tr td:nth-child(4){
+    text-align: right;
+}
+.tablehead tr td:nth-child(1){
+    text-align: left;
+}
+.tablebody span{
+    display: block;
+}
+.tablebody tr td{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #666;
+}
+.tablebody tr td:nth-child(1){
+    vertical-align: middle;
+    text-align: left;
+}
+.tablebody tr td:nth-child(4){
+    vertical-align: middle;
+    text-align: right;
+}
+.tablebody tr td:nth-child(2){
+    font-weight: bold;
+    color: #333;
+}
+.tablebody tr td.raise{
+   color: #e75945;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.tablebody tr td.drop{
+    color: #5ac355;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*加载更多页面*/
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrapBox{
+    width: 100%;
+    height: 100%;
+}
+.wrapBox p{
+    font-size: 1.4rem;
+    color: #333;
+    padding: 0 3.2%;
+    line-height:2.6rem;
+}
+.wrapBox p.last{
+    padding:1.7rem 3.2%  3rem 3.2%;
+    color: #e75945;
+}
+.prizebox{
+    position: relative;
+
+}
+/*我的奖励*/
+.prizeBox{
+    width: 100%;
+    height: 100%;
+
+}
+.prizeCon{
+    padding: 0 3.2%;
+    margin: 0 auto;
+}
+.phoneList{
+    width: 100%;
+    padding-top: 1rem;
+}
+.phoneList li{
+    height: 9rem;
+    background: url("../images/phopnebg.png") no-repeat;
+    background-size:100% 100% ;
+    margin-bottom: 1rem;
+}
+.phoneList dl{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+   /* padding: 0 4.6%;*/
+}
+.phoneList dl dt{
+    width: 6.6rem;
+    border-right: 2px dashed #eaeaea;
+    height:9rem ;
+}
+.phoneList dl dt a{
+    display: block;
+    width: 3.6rem;
+    background: url("../images/phone.png") no-repeat;
+    background-position: 0 -7.9rem;
+    height: 3.5rem;
+    margin: 2rem auto;
+    background-size: 100% auto;
+}
+.phoneList dl dd{
+   -webkit-box-flex:1;
+    -moz-box-flex:1;
+    -o-box-flex:1;
+    -ms-box-flex:1;
+
+}
+.prize{
+    float: left;
+    vertical-align: middle;
+    margin:2.5rem auto 3rem 1rem ;
+}
+.prize span{
+    display: block;
+}
+.get{
+    float: right;
+    display: block;
+    width: 5.5rem;
+    height: 2.6rem;
+    background:#357af1;
+    color: #fff;
+    line-height: 2.6rem;
+    text-align: center;
+    border-radius: .3rem;
+    margin: 3rem auto;
+   margin-right: 1.6rem;
+}
+.telCharge{
+    font-size: 1.8rem;
+    color: #333;
+}
+.time{
+    color: #666;
+}
+/*弹出框*/
+/*电话弹出框*/
+.phoneDialog{
+    width: 88%;
+    background:#f6f6f6;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    height:15rem ;
+    margin-top: -7.5rem;
+}
+.close{
+    margin-top: 1.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
+    background:url("../images/close.png") no-repeat;
+    background-size: 100%;
+    float: right;
+    margin:1.6rem 5% 1.6rem auto;
+}
+.mark{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(000,000,000,.4);
+    display: block;
+}
+.telnum{
+    width:90%;
+    margin: 0 auto;
+    display: block;
+    height:4rem;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    border:1px solid #eaeaea;
+    margin-top: 1.6rem;
+
+}
+.sure{
+    display: block;
+    width: 46%;
+    height: 3rem;
+    margin: 1.7rem auto 1.6rem auto;
+    text-align: center;
+    background: #9f9f9f;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    border-radius:.5rem;
+    /*display: none;*/
+}
+
+#bg{
+    background: #367af0;
+}

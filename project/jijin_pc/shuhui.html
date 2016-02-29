@@ -1,0 +1,315 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>我的资产（赎回确认）</title>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<link rel="stylesheet" type="text/css" href="css/fund1.css"/>
+<script type="text/javascript" src="http://c.mfniu.com/js/lib/jquery.js"></script>
+<script type="text/javascript" src="js/fund1.js"></script>
+<style type="text/css">
+/* shuhui.html */
+.conIn_sh{
+	padding-left: 0;
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+.conIn_sou h2{
+	padding: 10px 0 10px 50px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+    color: #00aaee;
+    font-weight: bold;
+    background: #f6f6f6 url(images/fkicon.png) 32px center no-repeat;
+    border-top: 1px solid #e4e4e4;
+}
+.conIn_sou h2 a{
+	float: right;
+	margin-right: 300px;
+	display: inline-block;
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+	width: 100px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+    background: #00aaee;
+    border: 1px solid #069dd9;
+    border-radius: 5px;
+}
+.conIn_sh_left{
+	width: 700px;
+	float: left;
+}
+.conIn_sh_t{
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.conIn_sh_t p,.conIn_sh .j_form p{
+	width: 440px;
+	color: #494949;
+	margin: 0 auto;
+}
+.conIn_sh_t p span{
+	display: inline-block;
+}
+.conIn_sh_t p span.j_mc,.conIn_sh .j_form p label{
+	width: 100px;
+	text-align: right;
+	margin-right: 38px;
+	font-weight: bold;
+}
+.conIn_sh_t p span.j_fk{
+	padding-right: 22px;
+	font-weight: bold;
+}
+.conIn_sh_t p b{
+	color: #67c0f0;
+}
+.conIn_sh_t p span i{
+	color: #67c0f0;
+	font-style: normal;
+}
+.conIn_sh .j_form{
+	width: 640px;
+	margin: 0 auto;
+}
+.conIn_sh .j_form p input{
+	width: 198px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #ddd;
+}
+.conIn_sh .j_form p{
+	padding-top:55px;
+}
+.conIn_sh .j_form p input.j_fsbtn{
+	width: 80px;
+	height: 28px;
+	line-height: 24px;
+	text-align: center;
+	background: #00aaee;
+	border: 1px solid #069dd9;
+	color: #fff;
+	border-radius: 5px;
+}
+.conIn_sh .j_form .Redeem_btn{
+	display: block;
+	width: 100px;
+	height: 36px;
+	background: #00aaee;
+	border: 1px solid #069dd9;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	margin: 60px auto;
+}
+
+.conIn_right{
+	width: 280px;
+	height: 647px;
+	padding: 0 9px;
+	float: left;
+	background: #f6f6f6;
+}
+.conIn_right h4{
+	font-size: 14px;
+	color: #444;
+}
+.conIn_right p.j_rp{
+	height: auto;
+	line-height: 25px;
+	margin-top: 10px;
+	padding: 0;
+	font-size: 12px;
+}
+.Redeem_fail,.Redeem_success{
+	width: 460px;
+	height: 354px;
+	background: #fff;
+	border: 4px solid #b0b0b0;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -177px;
+	margin-left: -230px;
+	z-index: 10;
+}
+.show{display: block;}
+.hide{display: none;}
+.Redeem_fail .fail_tit,.Redeem_success .success_tit{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #dddddd;
+}
+.fail_tit span,.success_tit span{width: 80px;float: left;text-align: center;color: #00aaee;font-weight: bold;}
+.fail_tit i,.success_tit i{width: 15px;height: 15px;padding: 16px; float: right;cursor: pointer;}
+.fail_tit1,.success_tit1{width: 166px;height: 28px;line-height: 28px;margin: 0 auto;margin-top: 67px;}
+.fail_tit1 i,.success_tit1 i{float: left;}
+.fail_tit1 span,.success_tit1 span{float: right;width: 134px;font-size: 26px; text-align: center;font-weight: bold;}
+.fail_tit2{width: 100%;height: 45px;line-height: 45px;text-align: center;margin-top: 10px;color: #999999;}
+.fail_btn,.success_btn{width: 100px;height: 36px;line-height: 36px;text-align: center;background: #00aaee; color: #fff;display: block;border: 1px solid #069dd9;border-radius: 5px;margin: 0 auto;margin-top: 55px;}
+.bg{width: 100%;height: 100%;background: #000;filter: alpha(opacity=40);-moz-opacity: 0.4; -khtml-opacity: 0.4;
+    opacity: 0.4;position: fixed; _position: absolute;left: 0;top: 0;z-index: 2;display: none;}
+
+
+
+/*
+ * footer
+ */
+
+.footer{
+	width: 100%;
+	height: 125px;
+	background: #25292d;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.footer p{
+	text-align: center;
+	color: #fff;
+	line-height: 25px;
+}
+.footer p em{
+	width: 1px;
+	height: 12px;
+	display: inline-block;
+	background: #fff;
+	vertical-align: middle;
+	margin:0 5px;
+}
+.footer p a{
+	color: #fff;
+	vertical-align: middle;
+	margin:0 5px;
+}
+
+.con_pad{
+	padding-bottom: 112px;
+}
+
+</style>
+<!--[if IE 6]>
+		<script type="text/javascript" src="./js/DD_belatedPNG_0.0.8a.js"></script>
+		<script type="text/javascript" src="./js/ie6_fixed.js"></script>
+		<![endif]-->
+</head>
+<body>
+<!-- header start -->
+<div class="ji_header">
+	<div class="ji_username">
+		<div class="ji_userIn">
+			<dl>
+				<dt><img src="images/user_p.png"></dt>
+				<dd><a class="ji_name" href="#">黄玮玮是女士</a>|<a class="ji_exit" href="#">退出</a></dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="ji_logo">
+		<div class="ji_logoIn">
+			<div class="logo_bz"></div>
+			<p><a href="#">财富账户</a></p>
+		</div>
+	</div>
+	<div class="ji_blue"></div>
+</div><!-- header end -->
+<!-- content start-->
+<div class="ji_content con_pad">
+	<div class="ji_conIn">
+		<div class="conIn_top">
+			<div class="conInul">
+				<ul class="top_uls">
+					<li>基金超市</li>
+					<li>自选基金</li>
+					<li class="ji_on">我的资产</li>
+				</ul>
+			</div>
+			<div class="conIn_sou conIn_sh">
+				<h2><a href="#">返回</a>赎回确认</h2>
+				<div class="conIn_sh_left">
+					<div class="conIn_sh_t">
+						<p>
+							<span class="j_mc">基金名称</span>
+							<span class="j_fk">华夏大盘精选混合</span>
+							<b>000001</b>
+						</p>
+
+					</div>
+					<form class="j_form">
+						<p><label>交易密码</label><input class="j_passwd" type="password" value="" /><input class="j_passwds" type="text" value="请输入交易密码" /></p>
+						<p><label>手机号</label><input type="text" value="请输入手机号" onblur="if(this.value == ''){this.value = '请输入手机号'; }" onfocus="if(this.value == '请输入手机号'){this.value =''; }" /><input class="j_fsbtn" type="button" value="发送验证"></p>
+						<p><label>短信验证码</label><input class="j_yzcode" type="password" placeholder="请输入短信验证" /></p>
+						<input class="Redeem_btn" type="button" value="确认">
+					</form>
+				</div>
+				<div class="conIn_right">
+					<h4>温馨提示</h4>
+					<p class="j_rp">1）投资者于T日申购的基金，T+2日（QDII为T+3）日起才可以进行赎回操作</p>
+					<p class="j_rp">2）当基金持有份额、可交易份额、交易冻结份额、基金市值均为0的情况，为认申购在途业务</p>
+					<p class="j_rp">3）您在工作日15：00以后或非工作日提交的交易申请，系统将自动按照下一个工作日处理</p>
+					<p class="j_rp">4）只支持货币基金的实时赎回，预计2小时内到账</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div><!-- content end-->
+
+<!-- 赎回失败-->
+<div class="Redeem_fail hide">
+	<p class="fail_tit"><span>提示</span><i><img class="fail_tit_Close" src="images/Close.png"></i></p>
+	<p class="fail_tit1"><i><img src="images/wrongpic.png"></i><span>赎回失败</span></p>
+	<p class="fail_tit2">失败原因：银行卡余额不足</p>
+	<a href="javascript:;" class="fail_btn">重新赎回</a>
+</div>
+
+<!-- 赎回成功-->
+<div class="Redeem_success hide">
+	<p class="success_tit"><span>提示</span><i><img class="success_tit_Close" src="images/Close.png"></i></p>
+	<p class="success_tit1"><i><img src="images/yespic.png"></i><span>赎回成功</span></p>
+	<a href="javascript:;" class="success_btn">我的资产</a>
+</div>
+<!-- 背景-->
+<div class="bg"></div>
+
+
+
+<!--footer-->
+<div class="footer">
+	<p>
+		<a href="#">关于我们</a><em></em>
+		<a href="#">免责声明</a><em></em>
+		<a href="#">诚聘英才</a><em></em>
+		<a href="#">联系我们</a><em></em>
+		<a href="#">服务协议</a><em></em>
+		<a href="#">新手帮助</a>
+	</p>
+	<p><span>友情链接：</span><a href="#">中关村在线</a><a href="#">非凡软件</a></p>
+	<p>©2015北京银创科技有限公司</p>
+	<p>京ICP备14010649号-1</p>
+</div>
+
+
+
+
+
+<!-- foooter start-->
+
+<!-- foooter end-->
+<script type="text/javascript">
+	$('.success_tit_Close').click(function(){
+		$(this).parents(".Redeem_success").hide();
+		$('.bg').hide();
+	})
+	$('.fail_tit_Close').click(function(){
+		$(this).parents(".Redeem_fail").hide();
+		$('.bg').hide();
+	})
+</script>
+
+</body>
+</html>

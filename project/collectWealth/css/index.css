@@ -1,0 +1,69 @@
+/*header*/
+.logoBox{float:left;width:148px;height:48px;}
+.logoBox img{margin-top:8px;}
+.hearderDepart{height:100%;height:59px;background:#af1717;}
+.headerBox{width:1000px;margin:0 auto;height:59px;}
+.navLists{float:left;margin-left:45px;}
+.headerBox ul li{float:left;}
+.headerBox ul li a{height:59px;line-height:59px;color:#fff;font-size:14px;padding:0 47px;display:block;float:left;}
+.headerBox ul li.on a,.headerBox ul li a:hover{background:#970e0e;color:#ffd06a;}
+.sectionOne{height:300px;position:relative}
+.mainBarList{height:266px;width:300px;margin:0 auto;position:absolute;left:50%;top:0;margin-left:160px;z-index:999;}
+/*轮播图*/
+#banner {position:relative; width:100%; height:300px;z-index:999;}
+#banner_list{margin:0 auto; width:100%;}
+#banner_list img {border:0px;}
+#banner ul {position:absolute; left:50%; bottom:10px;z-index:999;width:100px;margin-left:-50px;}
+#banner_list a img{background-size:100% 100%;width:100%;}
+#banner_list a {width:100%}
+#banner ul li {float:left;display:block;background:#fff;cursor:pointer;width:13px;height:13px;margin-right:12px;overflow:hidden;_display:inline;zoom:1;border-radius: 50%}
+#banner ul li.on {background:#f00;}
+#banner_list a{position:absolute;left:0;top:0;z-index:1;} /*<!-- 让四张图片都可以重叠在一起-->*/
+/*登录注册*/
+.login{width:232px;height:258px;border: 1px solid #fbd085;background:#fff;display:block;padding:5px 12px 0 22px;margin-top:20px;}
+.login h3{height: 30px; line-height: 30px; font-size: 16px;font-weight:bold; color:#af1717;}
+.inputcon li{height: 30px; line-height: 30px; margin-top: 15px;overflow:hidden}
+.inputcon li label{float: left; width: 60px; text-align: right; line-height: 30px; height: 30px; font-size: 14px;}
+.inputcon a.kbq{text-decoration: underline;} 
+.input1{height: 28px; line-height: 28px; border: 1px solid #c7c7c7; padding: 0 5px;}
+.login_btn1{width:206px; height:34px; line-height: 34px; background: url(../images/comons.png) no-repeat;border: 0;cursor:pointer;font-size: 16px;font-weight: bold;color: #fff;}
+.login .tip{color: #7b581d; margin-top:5px;font-size:12px;width:206px;text-align:center}
+.changepic{margin:3px 0 0 10px;}
+.input1{width:134px;}
+.w50{width:50px;}
+/*maincontainer*/
+.goodAdvantage h3,.businessIntro h3,.sTitle h3,.invest .sTitle h3{background:url(../images/comons.png) no-repeat;}
+.mainWrap{width:100%;height:auto;}
+.maincontainer{width:1000px;margin:0 auto;overflow:hidden}
+.introTxt{width:600px;margin-right:20px;}
+.introduceBox,.goodAdvantage,.moreinforBox{margin-top:20px;}
+.introTxt h3{color:#af1717;font-size:20px;font-weight:bold;}
+.introTxt p{font-size:12px;color:#000;line-height:27px;margin-top:10px;}
+.businessIntro{margin-toP:20px;}
+.businessIntro h3{width:116px;height:34px;background-position:0 -33px;margin-bottom:10px;}
+.showBoxList li{float:left;width:230px;margin-right:26px;}
+.showBoxList li.spe{margin-right:0;}
+.showBoxList li p{font-size:12px;text-align:center;width:230px;color:#4e4e4e;}
+/*产品优势*/
+.goodAdvantage li{float:left;}
+.goodAdvantage li.spe{margin-right:0;}
+.goodAdvantage h3{width:116px;height:34px;background-position:0 -70px;margin-bottom:10px;}
+/*常见问题、投资早知道*/
+.comonproblem{width:490px;}
+.sTitle h3{background-position:0 -107px;width:152px;height:34px;float:left;}
+.sTitle .moreLink{float:right;height:34px;line-height:34px;display:block;}
+.messageList{margin-top:5px;}
+.messageList li{height:30px;line-height:30px;}
+.messageList li a{color:#545454;font-size:12px;}
+.messageList li .fbTime{float:right;color:#fea910;font-size:12px;}
+.messageList li .jtsTxt{float:left;}
+.invest{margin-left:20px;}
+.invest .sTitle h3{background-position:0 -144px;}
+.pkBox{margin-top:23px;text-align:center;}
+.pkBox .dbt{color:#af1717;font-size:36px;font-weight:bold;}
+.pkBox .details{color:#fea910;font-size:16px;margin-top:5px;}
+.pkBox img{margin-top:15px;}
+/*footer*/
+.footer{background:#e2e2e2;padding:20px 0;}
+.footer p{text-align:center;margin:10px 0;}
+.footer p.firstLine a{margin:0 13px;}

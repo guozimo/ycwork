@@ -1,0 +1,47 @@
+body{background: url(http://ys.mfstatic.com/project/tjmf/images//bodybg.png) repeat;}
+.wrap{ width: 800px; height: 600px; margin: 20px auto;}
+.pa20{ padding: 20px 20px; width: 760px; height: 560px; background: #e7e6e6;}
+*{ font-family: "微软雅黑"}
+.wrap{ position: relative;}
+.btyzx{ width: 76px; height: 16px;}
+.btyzx span{ width: 8px; height: 16px; background: #ec6666; display: block; margin-right: 5px; float: left;}
+.btyzx h1{ font-size: 16px; color: #444444; height: 16px; line-height: 16px; display: block;float: left; font-weight: bold;}
+.djclose{ height: 60px; width: 100%; margin-top: 30px;}
+.anniu{ width: 220px; height: 60px; background: #000; outline: none; float: right; display: block; border: none; overflow: hidden; background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) no-repeat; cursor: pointer;}
+.closebut{ background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) 0 0 no-repeat;}
+.openbut{  background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) 0 -62px no-repeat;}
+.dtimg{ width: 760px; height: 400px; background: url(../images/yzxban.png) no-repeat; margin-top: 20px;}
+.messsm{ font-size: 13px; width: 485px;word-break:break-all; color: #000000; float: left; letter-spacing:0px; line-height: 28px;}
+.blackbox{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #000;filter:alpha(opacity=30); -moz-opacity:0.3;-khtml-opacity:0.3; opacity: 0.3; z-index: 10; }
+.tcbox{ width: 440px; height: 310px;}
+.whitebox{ padding: 10px; background: #fff; position: absolute; left: 50%; margin-left: -220px;top: 103px; filter:alpha(opacity=20); -moz-opacity:0.2;-khtml-opacity:0.2; opacity: 0.2; z-index: 11; }
+.nr{ background: #e7e6e6; position: absolute; left: 50%; margin-left: -210px;top: 113px; z-index: 12;}
+.tit{ height: 35px; border-bottom: solid 1px #f4f4f4;}
+.tit h2{ font-size: 16px; color: #ec6666; font-weight: bold; width: 100px; padding-left: 10px; line-height: 35px; float: left;}
+.gbbut{ width: 24px; height: 24px; background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) 0 -131px no-repeat; margin-top: 6px; margin-right: 10px; display: block; float: right; cursor: pointer;}
+.nrp{ width: 400px; height: 243px; border-top: solid 1px #c9c9c9; padding-left: 37px;}
+.nxw{ width: 320px; padding-left: 16px;}
+.cyhope{ font-size: 16px; color: #333333; text-indent: 32px; line-height: 28px; margin-top: 6px; margin-bottom: 5px;}
+.cyhope span{ font-size:24px; color: #ec6666; }
+.xzbox{ padding-left: 50px;}
+.sameli{ height: 17px; line-height: 17px; font-size: 14px; color: #000000; vertical-align: middle; margin-top: 10px;}
+.sameli label{ width: 17px; height: 17px;  display: inline-block; overflow: hidden; background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) -41px -130px no-repeat; vertical-align:middle; margin-right: 10px; cursor: pointer;}
+.sameli label.check{ background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) -41px -149px no-repeat;}
+.boxin{ width: 90px; height: 32px; overflow: hidden; border: none; color: #ec6666; font-weight: bold; font-size: 18px; cursor: pointer;background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) -69px -125px no-repeat; display: block; text-align: center; line-height: 32px;}
+.inputbox{ width: 290px; height: 32px; padding-left: 23px; margin-top: 20px; padding-bottom: 15px;}
+.boxin:hover{background: url(http://ys.mfstatic.com/project/tjmf/images/anniu.png) -69px -160px no-repeat; color: #fff;}
+.okbut{ float:left; }
+.nobut{ float:right;}
+.msyj{ font-size: 12px; color:#666666;}
+.hidetel{ display: none;}
+.bq{ display: block; margin: 0 auto; margin-top: 10px;}
+p.error{ font-size: 16px; color: #444444;line-height: 28px; text-indent: 32px;}
+.w370{width: 384px; padding: 0;}
+.inputbox .cenbut{ margin: 0 auto; float: none;}
+.mt10{margin-top: 10px;}
+.opfree{font-size: 20px; color: #333333; line-height: 80px; text-align: center; font-weight: bold;}
+.sbck{ width: 288px; margin: 0 auto; font-size: 13px; color: #555555; text-indent: 26px; line-height: 24px;}
+.mt40{ margin-top: 40px;}
+ .w290{ width: 290px;}
+ .pl62{ padding-left: 62px;}
+ .mt10{ margin-top: 10px;}

@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/**
+* Description: style 
+* Developers: jinyuhong
+**/
+
+body,
+html {
+	background: url(http://ys.mfstatic.com/project/tjmf/images//bodybg.png) repeat;
+	height: 100%;
+	font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+	color: #333;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	border: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+a,
+u,
+b {
+	text-decoration: none;
+}
+
+i {
+	font-style: normal;
+}
+
+input {
+	padding: 0 5px;
+}
+
+.red {
+	color: #ec6666;
+}
+
+.line_bg {
+	background: url(http://ys.mfstatic.com/project/tjmf/images/bg_x.png) repeat-x;
+	height: 2px;
+}
+
+.w_box {
+	width: 1038px;
+	padding: 4px 0;
+	height: auto;
+	margin: 30px auto;
+	position: relative;
+	_left: 50%;
+	_margin-left: -529px;
+}
+
+.wrap_box {
+	width: 1398px;
+	margin: 10px auto 10px auto;
+	background: #3b3b3b;
+	position: relative;
+	_left: 50%;
+	_margin-left: -699px;
+	border: 1px solid #686868;
+	padding: 1px 1px 10px 1px;
+}
+
+.main_left {
+	width: 234px;
+	min-height: 500px;
+	_height:500px !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #3b3b3b;
+	border: 1px solid #686868;
+	border-right: none;
+	z-index: 50;
+}
+
+.l_ullist {
+	width: 235px;
+	margin-top: 25px;
+	margin-left: 4px;
+	_margin-left: -1px;
+	overflow: hidden;
+}
+
+.l_ullist li {
+	text-align: center;
+	width: 235px;
+	height: 46px;
+	line-height: 46px;
+	overflow: hidden;
+	margin-bottom: 0;
+	*margin-top: -2px;
+}
+
+
+/* .l_ullist li.l_line{width: 235px; height: 2px;line-height: 2px;} */
+
+.l_ullist li.l_line {
+	width: 200px;
+	margin-left: 20px;
+	height: 2px;
+	line-height: 0px;
+	display: inline-block;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/bg_x.png) repeat-x;
+	overflow: hidden;
+	*margin-top: -11px;
+}
+
+.l_ullist li a {
+	width: 235px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.l_ullist li a span,
+.l_ullist li a span u,
+.l_ullist li a span i {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.l_ullist li a:hover span {
+	text-indent: 1px;
+}
+
+.l_ullist li a.active {
+	color: #ec6666;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/li_bg.png) no-repeat;
+}
+
+.l_ullist li a.active span {
+	text-indent: 0;
+}
+
+.main_right {
+	width: 790px;
+	_height:800px !important;
+	*height:800px;
+	background: #3b3b3b;
+	position: absolute;
+	right: 4px;
+	top: 0;
+	border: 1px solid #686868;
+	padding: 4px;
+}
+
+.m_r_box {
+	background: #e7e6e6;
+	margin: 0 auto;
+	padding: 40px 65px;
+	min-height: 600px;
+	height: 100%;
+	padding-bottom: 30px;
+}
+
+.r_tit {
+	/*width: 750px;*/
+	/*height: 30px;*/
+}
+
+.r_tit .txtTitle {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.r_tit .txtTitle em {
+	width: 8px;
+	height: 16px;
+	background: #ec6666;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.r_tit .txtTitle span{
+	vertical-align: middle;
+}
+
+/*.r_tit input {
+	float: right;
+	outline: initial;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}*/
+

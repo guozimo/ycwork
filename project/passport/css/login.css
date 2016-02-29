@@ -1,0 +1,152 @@
+.mian{ width: 100%; padding-bottom: 312px;/* background: url(../images/loginimg/bj.png) 100%;*/} 
+.loginbox{ width: 393px; height: 260px;background: #fff; border: solid 1px #e0d7d5; /*margin: 0 auto; margin-top: 209px;*/ position: fixed; top: 50%; margin-left: -196.5px; margin-top: -200px;z-index: 66px; left: 50%;}
+.dlk{ margin-bottom: 24px;}
+.dlk label{ font-size: 14px; color: #737373; width: 42px;display: inline-block; height: 36px;line-height: 36px; vertical-align: middle; margin-right: 16px;}
+.dlk input{ width: 185px; height: 34px; line-height:34px; border: solid 1px #cccccc;vertical-align: middle; outline: none;} 
+.mtop34{margin-top: 34px;}
+.ml68{margin-left: 68px;}
+.buts{ margin: 0 auto; width: 184px;}
+.soonlogin{ width: 99px; height: 37px; background: #c02531; border-radius: 3px; border:none; font-size: 14px; color: #fff; cursor: pointer; float: left;}
+.wjmm{ float: right; line-height: 37px; cursor: pointer; text-decoration: underline;color:#000} 
+.top{ width: 100%; height: 50px; background: #eeeeee;}
+.topin{ width: 980px; margin: 0 auto;}
+.logo{ display: block; float: left; height: 34px; margin-top: 9px;} 
+.mflq{ /*width: 80px;*/ height: 30px; background: #c02531; color: #fff; line-height: 30px; text-align: center; border:none; border-radius: 3px;-moz-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; float: right; margin-top: 10px; cursor: pointer;}
+
+
+/* 新加 */
+.login_tips{
+	height: 19px;
+	/*text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
+	color: #c02531;
+	font-weight: bold;*/
+}
+.footer{ position: fixed;left: 0; bottom: 0; z-index: 50;}
+
+/*forget*/
+.forgetbox{ width: 480px; height: 400px; border: solid 1px #e0d7d5; margin-left: -240px; margin-top: -260px;}
+.login_dialog{
+			
+			background: url(../images/act_bg.png);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -165px;
+			margin-left: -233px;
+		}
+		.login_dialog .closeImg{
+			width: 467px;
+		    height: 20px;
+		    margin-top: 14px;
+		}
+		.login_dialog .closeImg img{
+		    display: block;
+		    margin-left: 95%;
+		    cursor: pointer;
+		    height: 100%;
+		}
+.login_dialog h2{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #c02531;
+	font-weight: bold;
+}
+.form_login{
+	width: 340px;
+	height: 200px;
+	/*padding-top: 10px;*/
+	margin: 0 auto;
+}
+.form_login p{
+	height: 34px;
+	margin-top: 25px;
+}
+.form_login p label{
+	display: inline-block;
+	width: 60px;
+}
+.form_login p input{
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.form_login p.loginBtn input{
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	background: #c02531;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 50px;
+}
+.login_dialog .login_a{
+	text-align: center;
+}
+.login_dialog .login_a a{
+	color: #c02531;
+	font-size: 14px;
+}
+.login_forget{
+	position: absolute;
+	right: 90px;
+	bottom: 126px;
+}
+.login_forget a{
+	color: #30a3ea;
+	font-size: 14px;
+}
+.form_login p.verification input,.form_login p.imgcode input{
+	display: inline-block;
+	width: 110px;
+	margin-right: 10px;
+}
+.form_login p.imgcode input{
+	width: 148px;
+}
+.form_login p.verification a{
+	background: #c02531;
+	padding: 8px 10px;
+	color: #fff;
+	font-size: 14px;
+}
+.form_login p.verification label,.form_login p.setup label{
+	width: 100px;
+}
+.form_login p.setup input{
+	width: 200px;
+}
+.form_login p.imgcode a{
+	display: inline-block;
+	width: 90px;
+	height: 33px;
+	background: #fc0;
+	vertical-align: middle;
+}
+.login_dialog3{
+	height: 400px;
+	margin-top: -200px;
+}
+/*register*/
+.telbox{ width: 335px; margin: 0 auto;}
+.telboxin input{ width: 302px; height: 38px; border: solid 1px #cccccc; color: #aaa; padding-left: 10px; outline: none; display: block;margin: 0 auto;}
+.mar20{ margin-top: 20px;}
+.zcnow{ margin-top: 8px;}
+.telboxin2 .telboxin input{ height: 38px; width: 163px; font-size: 16px; color: #999;  line-height: 38px;}
+.telboxin2 .telboxin{ float: left; padding-left: 10px;}
+.yzm{ width: 134px; height: 38px; background: #1899e8; border:none; color: #fff; font-size: 16px; line-height: 38px; text-align: center; float: right; display: block; outline: none; cursor: pointer; margin-right: 10px; display: inline-block;}
+.telboxin .hidea{ display: none;}
+.telboxin2{ height: 38px; width: 100%; margin-left: 0;}
+.telboxin2 .login{ height: 38px; width: 100%; background: #1899e8; border:none; color: #fff; font-size: 16px; line-height: 38px; text-align: center; display: block; cursor: pointer;}
+.yzh{ text-align: right; font-size: 12px; color: #1899e8;}
+.telbox{margin-top: 24px;}
+.form_login2{ height: 34px;}
+.form_login2 p{padding-left: 10px;}
+.form_login2 p.imgcode input{ width: 200px;}

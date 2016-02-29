@@ -1,0 +1,325 @@
+.input_username input,
+.input_keyword input {
+  width: 76%;
+  color: #ccc;
+  font-size: 1.08333333rem;
+  border: none;
+  padding-left: 1.04166667rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+}
+.number {
+  width: 19%;
+  height: 2.91666667rem;
+  line-height: 2.91666667rem;
+  display: block;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  margin-top: 0.41666667rem;
+  color: #666;
+}
+.input_username,
+.input_keyword {
+  width: 100%;
+  height: 3.625rem;
+  line-height: 3.625rem;
+  border-top: 1px solid #eaeaea;
+}
+.input_keyword {
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+.key_txt {
+  color: #e63c1e;
+  font-size: 1rem;
+  display: block;
+  position: absolute;
+  top: 26%;
+  right: 2%;
+}
+.input_keyword input {
+  width: 100%;
+}
+.forget_kw {
+  font-size: 1rem;
+  text-align: right;
+  height: 2.29166667rem;
+  line-height: 2.29166667rem;
+  color: #999;
+  display: block;
+  width: 5rem;
+  margin-left: 65%;
+  width: 24%;
+}
+.dl_false {
+  width: 80%;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  color: #fff;
+  background: #b4b4b4;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 1.16666667rem;
+  margin-top: 1.33333333rem;
+}
+.dl_success {
+  background: #ff8214;
+}
+.tips {
+  color: #ff8214;
+  font-size: 1rem;
+  margin: 1% 0 0 10%;
+  display: block;
+  padding: 2% 0;
+  width: 40%;
+}
+.input_username input.on,
+.input_keyword input.on {
+  color: #666666;
+}
+.sign {
+  background: url(../images/icon_dsf.png) no-repeat;
+  display: block;
+  background-size: 100% 100% ;
+  width: 20.79166667rem;
+  height: 1rem;
+  margin: 2rem auto 0;
+}
+.sf_dl {
+  text-align: center;
+  margin-top: 2.08333333rem;
+}
+.sf_dl img {
+  height: 3.66666667rem;
+  width: 3.66666667rem;
+}
+.xl_wb {
+  margin-right: 3.5rem;
+}
+.txt-box textarea {
+  width: 100%;
+  height: 12.5rem;
+  font-size: 1rem;
+  color: #ccc;
+  outline: none;
+  text-indent: 0.5rem;
+  border: 1px solid #eaeaea;
+  padding: 0.83333333rem 0 0 0;
+}
+.txt-box {
+  padding-top: 0.83333333rem;
+}
+.submit_btn {
+  width: 60%;
+  height: 3.25rem;
+  line-height: 3.25rem;
+  color: #fff;
+  background: #fd822b;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+  margin: 1.66666667rem auto 2.5rem auto;
+  font-size: 1.16666667rem;
+}
+/*财付通menu页面*/
+.menu_list {
+  background: -webkit-linear-gradient(#f37133, #ee5a34);
+  background: -moz-linear-gradient(#f37133, #ee5a34);
+  background: -o-linear-gradient(#f37133, #ee5a34);
+  background: -ms-linear-gradient(#f37133, #ee5a34);
+  background: linear-gradient(#f37133, #ee5a34);
+  width: 100%;
+  height: 15rem;
+  border-top: 1px solid #d75924;
+  box-shadow: #e9692e;
+}
+.count_money,
+.line01 {
+  float: left;
+}
+.count_money,
+.value_voucher {
+  width: 48%;
+  text-align: center;
+  height: 15rem;
+  display: block;
+}
+.value_voucher {
+  float: right;
+}
+.count_money img,
+.value_voucher img {
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-top: 3.33333333rem;
+}
+.count_money em,
+.count_money span,
+.value_voucher em,
+.value_voucher span {
+  display: block;
+  color: #fff;
+}
+.count_money em,
+.value_voucher em {
+  font-size: 1rem;
+}
+.count_money span,
+.value_voucher span {
+  font-size: 1.5rem;
+  margin-top: 0.41666667rem;
+}
+.line01 {
+  background: url(../images/line01.png) center 58px no-repeat;
+  width: 2px;
+  height: 160px;
+  margin-left: 2%;
+}
+.box_lists {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 11.66666667rem;
+  background: #fff;
+  margin-top: 28px;
+}
+.sm_hz {
+  width: 96%;
+  margin: 0 auto;
+  height: auto;
+  border-bottom: 1px solid #eaeaea;
+}
+.sm_hz ul {
+  width: 100%;
+}
+.sm_hz ul li {
+  width: 48%;
+  float: left;
+}
+.sm_hz ul li a {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+.sm_hz ul li a img {
+  margin: 1.41666667rem 0 1.41666667rem 20%;
+  width: 2.75rem;
+  height: 3.04166667 rem;
+  float: left;
+}
+.sm_hz ul li.spe {
+  background: url(../images/line02.png) center 19px no-repeat;
+  width: 1px;
+  height: 70px;
+  margin-left: 2%;
+}
+.sm_hz ul li.my_quanbao {
+  float: right;
+}
+.sm_hz ul li em {
+  color: #666;
+  font-size: 1rem;
+  float: left;
+  display: block;
+  margin: 30px 0 0 4%;
+}
+.xm_hz {
+  border-bottom: none;
+}
+/*优惠券*/
+.coupon {
+  position: relative;
+  overflow: hidden;
+  width: 94%;
+  margin: 0 auto;
+  height: 10.20833333rem;
+  background: #fff;
+  border-top: 1px solid #fd822b;
+  border-bottom: 4px solid #fd822b;
+  margin-top: 1.25rem;
+}
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+  position: relative;
+  overflow: hidden;
+  height: 9.79166667rem;
+}
+.container span {
+  display: block;
+}
+.container span.yhq {
+  color: #fd822b;
+  font-size: 1.58333333rem;
+  margin-top: 1.04166667rem;
+}
+.container span.time {
+  color: #666;
+  font-size: 0.83333333rem;
+}
+.jb {
+  width: 5.83333333rem;
+  height: 6.75rem;
+  display: block;
+  position: absolute;
+  top: -1.875rem;
+  right: -0.5rem;
+  background: url(../images/iconquan.png) no-repeat;
+  background-size: 100%;
+}
+.line03 {
+  display: block;
+  border-bottom: 1px dashed #fd822b;
+  width: 100%;
+  height: 1px;
+  margin-top: 2.29166667rem;
+}
+.container span.yuan {
+  position: absolute;
+  top: 2.41666667rem;
+  right: 2.91666667rem;
+  color: #fd822b;
+  font-size: 1.58333333rem;
+}
+.container span.yuan strong {
+  font-size: 3.33333333rem;
+}
+.db_box li b {
+  height: 3.08333333rem;
+  line-height: 3.08333333rem;
+  display: block;
+  color: #999;
+  font-size: 0.83333333rem;
+}
+.db_box li {
+  float: left;
+}
+.db_box li.py {
+  float: right;
+}
+.db_box li a {
+  display: inline-block;
+  width: 3.58333333rem;
+  height: 1.66666667rem;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 0.66666667rem;
+}
+.db_box li a.use_btn {
+  background: #fd822b;
+  color: #fff;
+  margin-right: 1.25rem;
+}
+.db_box li a.share_btn {
+  background: #fff;
+  color: #fd822b;
+  border: 1px solid #fd9f5d;
+  width: 3.5rem;
+  height: 1.58333333rem;
+}
+.jl {
+  margin-bottom: 1.25rem;
+}

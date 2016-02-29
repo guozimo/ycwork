@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>通金魔方</title>
+		<link rel="stylesheet" type="text/css" href="http://ys.mfstatic.com/project/tjmf/css/common/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cloudfree.css">
+		<script type="text/javascript" src="http://ys.mfstatic.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!--[if IE 6]>
+		<script type="text/javascript" src="http://c.mfniu.com/js/lib/DD_belatedPNG_0.0.8a.js"></script>
+		<script type="text/javascript" src="http://c.mfniu.com/js/ie6_fixed.js"></script>
+		<![endif]-->
+</head>	
+<body>
+	<div class="wrap">
+		<div class="pa20">
+			<div class="btyzx">
+				<span></span><h1>云自选</h1>
+			</div>
+		    <div class="dtimg"> </div>
+		     <div class="djclose">
+		     	<p class="messsm">开启云自选后，自选股将跟您的账号绑定，实现自选股在不同电脑间上的同步迁移，解决您自选股丢失或不同步更新的问题。</p>
+		    	<input type="button" class="anniu closebut" /><!-- 开启openbut 关闭closebut -->
+		    </div>
+		    
+		</div>
+	    <div class="blackbox"></div>
+	    <div class="tcbox whitebox"></div>
+	    <div class="tcbox nr hidetel">
+	    	<div class="tit clearfix">
+	    		<h2>提示</h2>
+	    		<a class="gbbut"></a>
+	    	</div>
+	    	<div class="nrp">
+	    		<div class="nxw">
+	    			<p class="cyhope">检测到您云自选股与通金魔方当前自选股存在差异，<span>您希望</span></p>
+	    			<div class="xzbox">
+	    				<div class="sameli">
+	    					<label class="check"></label>合并通金魔方自选股、云自选
+	    				</div>
+	    				<div class="sameli">
+	    					<label></label>合并通金魔方自选股、云自选
+	    				</div>
+	    				<div class="sameli">
+	    					<label></label>合并通金魔方自选股、云自选
+	    				</div>
+	    			</div>
+	    			<div class="inputbox">
+	    				<a class="boxin okbut"> 确定</a>
+	    				<a class="boxin nobut">取消</a>
+	    			</div>
+	    			
+	    		</div>
+	    		<p class="msyj">开启云自选之后，当前自选股将上传为云自选，您可在不同设备上查看。</p>
+	    	</div>
+	    </div>
+	     <div class="tcbox nr hidetel">
+		    	<div class="tit clearfix">
+		    		<h2>云自选提示</h2>
+		    		<a class="gbbut"></a>
+		    	</div>
+		    	<div class="nrp">
+		    		<div class="nxw  w370">
+		    			<img src="http://ys.mfstatic.com/project/tjmf/images/bq.png" class="bq"/>
+		    			<p class="error">网络连接错误，如要启用云自选，请确认网络连接正确后重启软件，如直接使用，将使用本机自选股。</p>
+		    			<div class="inputbox  w370 mt10">
+		    				<a class="boxin cenbut">确定</a>
+		    			</div>
+		    			
+		    		</div>
+		    	</div>
+	    </div>
+	     <div class="tcbox nr hidetel">
+		    	<div class="tit clearfix">
+		    		<h2>提示</h2>
+		    		<a class="gbbut"></a>
+		    	</div>
+		    	<div class="nrp">
+		    		<div class="nxw  w370">
+		    			<p class="opfree mt10">您已经开启自选股</p>
+		    			<p class="sbck">开启云自选之后，当前自选股将上传为云自选，您可在不同设备上查看。</p>
+		    			<div class="inputbox  w370 mt40">
+		    				<a class="boxin cenbut">确定</a>
+		    			</div>
+		    			
+		    		</div>
+		    	</div>
+	    </div>
+	     <div class="tcbox nr">
+		    	<div class="tit clearfix">
+		    		<h2>提示</h2>
+		    		<a class="gbbut"></a>
+		    	</div>
+		    	<div class="nrp">
+		    		<div class="nxw  w370">
+		    			<p class="opfree mt10">您确定要关闭云自选功能？</p>
+		    			<p class="sbck">关闭云自选之后，您在的自选股都将不具备云功能。同时通金魔方的自选股将恢复本地自选股。</p>
+		    			<div class="inputbox  w290 mt40 pl62">
+		    				<a class="boxin okbut"> 确定</a>
+	    					<a class="boxin nobut">取消</a>
+		    			</div>
+		    			
+		    		</div>
+		    	</div>
+	    </div>
+	</div>
+	
+</body>
+<script type="text/javascript">
+$('.sameli label').click(function(){
+	$('.sameli label').removeClass('check');
+	$(this).addClass('check');
+})
+$('.gbbut,.nobut').click(function(){
+	$('.blackbox').hide();
+	$('.tcbox').hide();
+})
+</script>
+</html>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

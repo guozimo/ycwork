@@ -1,0 +1,1 @@
+DD_belatedPNG.fix(".radioBox i.open,.radioBox,.icon");

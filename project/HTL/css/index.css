@@ -1,0 +1,357 @@
+body,html{
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	background: #fafafa
+}
+a,i,em,u{
+	text-decoration: none;
+}
+.mt20{
+	margin-top: 20px;
+}
+.TopBox{
+	width: 1000px;
+	height: 60px;
+	line-height: 60px;
+	margin:0 auto;
+}
+.TopBox span{
+	font-size: 14px;
+	vertical-align: middle;
+	float: left;
+}
+
+.logo{
+	width: 130px;
+	margin-top: 10px;
+}
+.topRight{
+	display: inline;
+	float: right;
+}
+
+.TopBox em{
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+.TopBox input{
+	width: 108px;
+	height: 20px;
+	line-height: 20px;
+	background: #fff;
+	outline: none;
+}
+.TopBox img{
+	vertical-align: middle;
+	margin-left: 7px;
+	margin-right: 27px;
+}
+.TopBox input.subBtn {
+	display: inline-block;
+	width: 65px;
+	height: 25px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	background: #9f2424;
+	border:1px solid #921a1a;
+	border-radius: 3px;
+	cursor: pointer;
+	outline: none;
+}
+
+/*头部导航*/
+.header{
+	width: 100%;
+	height: 54px;
+	background: #c12c20;
+}
+.headBox{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* .header .logo{
+	float: left;
+	width: 240px;
+	height: 54px;
+}
+.header .logo img{
+	width: 50px;
+} */
+.header ul {
+	float: left;
+}
+.header ul li{
+	float: left;
+}
+.header ul li a{
+	color: #fff;
+	font-size: 14px;
+	height: 54px;
+	line-height: 54px;
+	padding:0 30px;
+	display: inline-block;
+}
+.header ul li a:hover,.header ul li a.on{
+	background: #9f2424;
+}
+
+/*banner图*/
+
+#banner {position:relative; width:100%; height:320px;z-index:999;}
+#banner_list{margin:0 auto; width:100%;}
+#banner_list img {border:0px;}
+#banner ul {position:absolute; left:50%; bottom:10px;z-index:999;width:100px;margin-left:-50px;}
+#banner_list a img{background-size:100% 100%;width:100%;}
+#banner_list a {width:100%}
+#banner ul li {float:left;display:block;background:#fff;cursor:pointer;width:13px;height:13px;margin-right:12px;overflow:hidden;_display:inline;zoom:1;border-radius: 50%}
+#banner ul li.on {background:#f00;}
+#banner_list a{position:absolute;left:0;top:0;z-index:1;}
+
+.contBox{ 
+	width: 1000px;
+	margin: 25px auto;
+}
+
+.contLeft{
+	float: left;
+	width: 269px;
+}
+.lists{
+	border:1px solid #e6aba6;
+	background: #fff;
+	height:269px;
+}
+.lists h3{
+	width: 100%;
+	height: 28px;
+	background:#fff6d7;
+	position: relative;
+}
+.lists h3 span{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	display: inline-block;
+	width: 121px;
+	height: 33px;
+	line-height: 33px;
+	background: url(../images/h_bg.png) no-repeat;
+	color: #fff;
+	font-size: 14px;
+}
+.lists h3 span i{
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.lists h3 span i.icon1{
+	width: 22px;
+	height: 16px;
+	background: url(../images/icon.png) no-repeat 0 0;
+}
+.lists h3 span i.icon2{
+	width: 19px;
+	height: 22px;
+	background: url(../images/icon.png) no-repeat 0 -16px;
+}
+.lists h3 span i.icon3{
+	width: 18px;
+	height: 18px;
+	background: url(../images/icon.png) no-repeat 0 -38px;
+}
+.lists h3 span i.icon4{
+	width: 19px;
+	height: 19px;
+	background: url(../images/icon.png) no-repeat 0 -56px;
+}
+.lists h3 a{
+	color:#a0231c;
+	float: right;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 10px;
+	font-size: 10px;
+
+}
+.listBox{
+	padding: 0 15px;
+}
+.imgBox{
+	width: 230px;
+	height: 98px;
+	border:1px solid #e6aba6;
+	padding:2px;
+	margin-top: 5px;
+}
+.imgBox img{
+	width: 230px;
+	height: 98px;
+}
+
+.listUl{
+	border-top: 1px dashed #ccc;
+	margin-top: 15px;
+}
+.listUl li{
+
+	background: url(../images/icon_samll.png) no-repeat left center;
+	padding-left: 10px;
+	height: 25px;
+	line-height: 25px;
+}
+.listUl li a{
+	font-size: 12px;
+	color: #000;
+	width: 227px;
+	height: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+/*Right*/
+.contRight{
+	width: 713px;
+	float: right;
+}
+.tLeft{
+	width: 487px;
+	height: 239px;
+	float: left;
+}
+.tLeft img{
+	width: 487px;
+	height: 239px;
+}
+
+.tRight{
+	float: right;
+	width:210px;
+}
+.lists h4{
+
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	background: #cb3f36;
+}
+.lists h4 span{
+	font-size: 14px;
+	margin-left: 10px;
+	float: left;
+}
+.lists h4 a{
+	color: #fff;
+	font-size: 10px;
+	float: right;
+	margin-right: 10px;
+}
+.Redcont{
+	padding:5px 10px;
+}
+.Redlist li{
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	_height: 22px;
+	_line-height: 22px;
+}
+.Redlist li a{
+	display: inline-block;
+	width: 130px;
+	height: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+	color: #000;
+	font-size: 12px;
+}
+.Redlist li span{
+	float: right;
+	font-size: 12px;
+}
+.RcontLR{
+	padding: 15px 0;
+}
+.FlLeft{
+	width: 300px;
+	height: 128px;
+	margin-left: 17px;
+	border:1px solid #e6aba6 ;
+	padding:2px;
+	float: left;
+}
+.FlLeft img{
+	width: 300px;
+	height: 128px;
+}
+.FlRight{
+	float: right;
+	width: 330px;
+	height: 133px;
+	padding-left: 25px;
+	border-left: 1px dashed #ccc;
+}
+.FlRight li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../images/icon_samll.png) no-repeat left center;
+    padding-left: 10px;
+}
+.FlRight li a{
+	font-size: 12px;
+    color: #000;
+    width: 300px;
+    height: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.contImg{
+	height: 410px;
+}
+.contBLeft{
+	float: left;
+	width: 340px;	
+}
+.contBRgiht{
+	float: right;
+	width: 340px;
+}
+.contBottom .Redlist li a{
+	display: inline-block;
+    width: 260px;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    color: #000;
+    font-size: 12px;
+}
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	margin-top: 40px;
+	height: 90px;
+	background: #ececec;
+	padding:30px 0;
+}
+.footer p{
+	text-align: center;
+	color: #000;
+	height: 30px;
+	line-height: 30px;
+}
+.footer p a{
+	color: #000;
+	margin:0 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>大数据股票池</title>
+		<link rel="stylesheet" type="text/css" href="http://ys.mfstatic.com/project/tjmf/css/common/??base.css,style.css"/>
+		<script type="text/javascript" src="http://ys.mfstatic.com/project/tjmf/js/lib/??jquery.js,laydate.js"></script>
+	
+	</head>
+    <body>
+        <div class="w_box clearfix">
+            <div class="main_left clearfix"> 
+                <ul class="l_ullist"> 
+                    <li><a href="#"><span><u></u><i>五行股票池</i></span></a></li>
+                    <li class="l_line"><u></u></li>
+                    <li><a href="#" class="active"><span><u></u><i>大数据股票池</i></span></a></li>
+                    <li class="l_line"><u></u></li>
+                    <li><a href="#"><span><u></u><i>高手股票池</i></span></a></li>
+                </ul>
+            </div>
+            <div class="main_right clearfix">
+                <div class="m_r_box clearfix"> 
+                    <div class="r_tit clearfix"> 
+                        <p><em></em>大家都在选什么？大数据股票池告诉你</p>
+                        <input class="laydate-icon" id="demo" value="2016/2/14">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            ! function() {
+                laydate.skin('dahong'); //控件颜色
+            }();
+            //自定义日期格式
+            laydate({
+                elem : '#demo',
+                format : 'YYYY/MM/DD',
+                festival : true, //显示节日
+               // min: laydate.now(), //设定最小日期为当前日期
+                max: laydate.now(), //最大日期
+                choose : function(datas) {//选择日期完毕的回调
+                   var val_ = $("#demo").val();
+                   $("#demo").attr("value", val_);   
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,262 @@
+/*快捷键*/
+*{padding:0;margin:0}
+.icon{
+	vertical-align: middle;
+	display: inline-block;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kLine_icon.png) no-repeat;
+}
+.keyTabList{
+	margin-top: 20px;
+}
+.keyTabList table{
+	width: 100%;
+	border:1px solid #bcbbbb;
+}
+.keyTabList td{
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+	height: 36px;
+	line-height: 36px;
+}
+
+.keyTabList table.realTimeTab{
+	width: 50%;
+}
+
+/*K线*/ 
+.kLineBox p{
+	color: #222222;
+	font-size: 14px;
+	line-height: 25px;
+	text-indent: 30px;
+	margin:15px 0;
+}
+.kLineBox p span{
+	color: #ec6666;
+}
+
+.kLineTop{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 725px;
+	margin:4px;
+	padding-left:65px;
+	height: 41px;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kTopbg.jpg) repeat-x;
+}
+.kLineTop a{
+	display: inline-block;
+	width: 140px;
+	height: 40px;line-height: 40px;
+	color: #333333;
+	font-size: 16px;
+	text-align: center;
+}
+.kLineTop a:hover,.kLineTop a.on{
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kTopbg_hover.jpg) repeat-x;
+	color:#ec6666 ;
+}
+.kLineTab{
+	margin-top: 25px;
+}
+
+.lineTabBox {
+	display: none;
+}
+/*趋势*/
+.lineTabBox p{
+	color: #222222;
+	font-size: 14px;
+	text-indent: 30px;
+	margin:15px 0;
+}
+.trendBox{
+	padding:0 30px;
+	background: #ededed;
+	border:1px solid #999999;
+}
+.trendBox p{
+	text-indent: 0;
+	height: 40px;
+	margin:0;
+	padding: 15px 0;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/p_bg.jpg) repeat-x bottom;
+}
+.trendBox p.noneLine{
+	background: none;
+	height: 50px;
+	padding: 10px 0;
+}
+
+.trendBox p i{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	vertical-align: middle;	
+}
+.trendBox p i.icon1{
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kLine_icon.png) no-repeat 0 0;
+}
+.trendBox p i.icon2{
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kLine_icon.png) no-repeat 0 -40px;
+}
+.trendBox p i.icon3{
+	height: 22px;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/kLine_icon.png) no-repeat 0 -80px;
+}
+.trendBox p em{
+	color: #eea13e;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.trendBox p span{
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.trendBox p.noneLine i,.trendBox p.noneLine em,.trendBox p.noneLine span{
+	float: left;
+}
+.trendBox p.noneLine i{
+	margin-top: 15px;
+}
+.trendBox p.noneLine em{
+	margin-top: 13px;
+}
+.trendBox p.noneLine span {
+	width: 435px;
+	display: inline-block;	
+}
+
+.lineTabBox p.txtRed{
+	color: #EC6666;
+}
+
+
+
+/*形态*/
+.fBoxList{
+	padding:0 30px;
+	background: #ededed;
+	border:1px solid #999999;
+}
+.formBox .noneLine{
+	background: none;
+}
+.fBoxList p{
+	margin:0;
+	padding:10px 0;
+	text-indent: 0;
+	background: url(http://ys.mfstatic.com/project/tjmf/images/p_bg.jpg) repeat-x bottom;
+}
+.fBoxList1 p i{
+	display: inline-block;
+	width: 34px;
+	height: 36px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.fBoxList1 p em{
+	display: inline-block;
+	width: 100px;
+	font-size: 14px;
+	color: #eea13e;
+	vertical-align: middle;
+}
+
+.fBoxList1 p span{
+	display: inline-block;
+	width: 450px;
+	vertical-align: middle;
+}
+
+.fBoxList1 p i.icon4{
+	background-position: 0 -103px;
+}
+.fBoxList1 p i.icon5{
+	background-position: 0 -139px;
+}
+.fBoxList1 p i.icon6{
+	background-position: 0 -175px;
+}
+.fBoxList1 p i.icon7{
+	background-position: 0 -211px;
+}
+.fBoxList1 p i.icon8{
+	background-position: 0 -247px;
+}
+.fBoxList1 p i.icon9{
+	background-position: 0 -283px;
+}
+.fBoxList1 p i.icon10{
+	background-position: 0 -319px;
+}
+.fBoxList1 p i.icon11{
+	background-position: 0 -355px;
+}
+.fBoxList1 p i.icon12{
+	background-position: 0 -391px;
+}
+.fBoxList1 p i.icon13{
+	background-position: 0 -427px;
+}
+.fBoxList1 p i.icon14{
+	background-position: 0 -463px;
+}
+.fBoxList1 p i.icon15{
+	background-position: 0 -499px;
+}
+
+.fBoxList2 p i{
+	display: inline-block;
+	width: 34px;
+	height: 35px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.fBoxList2 p em{
+	display: inline-block;
+	width: 90px;
+	font-size: 14px;
+	color: #eea13e;
+	vertical-align: middle;
+}
+.fBoxList2 p span{
+	display: inline-block;
+	width: 460px;
+	vertical-align: middle;
+}
+.fBoxList2 p i.iconX1{
+	background-position: 0 -536px;
+}
+.fBoxList2 p i.iconX2{
+	background-position: 0 -571px;
+}
+.fBoxList2 p i.iconX3{
+	background-position: 0 -606px;
+}
+.fBoxList2 p i.iconX4{
+	background-position: 0 -641px;
+}
+.fBoxList2 p i.iconX5{
+	background-position: 0 -676px;
+}
+.fBoxList2 p i.iconX6{
+	background-position: 0 -711px;
+}
+.fBoxList2 p i.iconX7{
+	background-position: 0 -746px;
+}
+.fBoxList2 p i.iconX8{
+	background-position: 0 -781px;
+}
+.fBoxList2 p i.iconX9{
+	background-position: 0 -816px;
+}
+.fBoxList2 p i.iconX10{
+	background-position: 0 -851px;
+}

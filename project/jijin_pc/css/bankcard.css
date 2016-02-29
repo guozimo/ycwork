@@ -1,0 +1,11 @@
+.symx_hin2 p.msyh{ margin-left: 95px; font-size: 12px; color: #333333; line-height: 25px;}
+			.fhback{ width: 100px; height: 20px; background: #00aaee; border: solid 1px #069dd9; color: #fff; font-size: 14px; border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px;-moz-border-radius: 3px; margin-top: 10px; float: right; cursor: pointer; outline: none;}
+			.cardbox,.cardbox2{ width: 660px; height: 80px; border: solid 1px #f2f2f2; background: #ffffff; margin-top: 10px; cursor: pointer;} 
+			.cardbox:hover{ border: solid 1px #00aaee;}
+			.cardbox p{ padding-left: 38px;}
+			.cardbox p span{ font-size: 14px; color: #333333; line-height: 80px;}
+			.cardbox p span i{font-style: normal; color: #00aaee;}
+			.cardbox p span.yhnum{ display: inline-block; width: 232px;}
+			.cardbox p span.dbxe{ display: inline-block; width: 203px;}
+			.jjmesscon2{ padding-top: 18px;}
+			.jiah{ display: block; margin: 0 auto; margin-top: 10px;}

@@ -1,0 +1,97 @@
+ *{ margin: 0; top: 0; padding: 0; font-family: "Microsoft YaHei";}
+	   .wrapper{ width: 100%; z-index: 105;}
+	   /*tiop*/
+	   .top{ width: 100%; height: 80px;background: #f0f0f0; border-bottom: solid 1px #dddddd;}
+	   .topmain{ width: 1000px; height: 66px; margin: 0 auto; padding-top: 14px; _padding-top:40px;}
+	   .logo{ width: 203px; height: 52px; overflow: hidden; background: url(http://ys.mfstatic.com/project/passport/images/register/logo.png) 0 0 no-repeat; float: left;}
+	   .logor{ width: 133px; float: right;}
+	   .haveh{ cursor: pointer; display: block; float: left; font-size: 14px; color: #717171; margin-top: 30px; line-height: 14px;}
+	   .login{ width: 50px; height: 26px; display: block; cursor: pointer; float: right; margin-top: 20px; background: url(http://ys.mfstatic.com/project/passport/images/register/logo.png) 0 -54px no-repeat; border: none; font-size: 14px; color: #fff;}
+	   /*main*/
+	   .main{ width: 1000px; margin: 0 auto;}
+	   .maintop{ height: 58px; width: 1000px; border-bottom: solid 1px #f0f0f0;}
+	   .maintop li{ height: 28px; cursor: pointer; padding-left: 22px;_padding-left:20px; display: inline; margin-top: 27px; width: 123px; margin-right: 4px;  float: left; background: none;}
+	   .maintop li.yxzc{ padding-left: 18px;_padding-left: 14px; width: 127px; _width: 131px;}
+	   .maintop li span{ font-size: 20px; line-height: 22px; display: block; width: 90px;}
+	   .maintop li.check{ border-bottom: 3px solid #00a0e9; color: #00a0e9; }
+	   .maintop li label{ width: 24px; height: 22px; display: block; overflow: hidden;}
+	   .maintop li.yxzc label{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) 0 0 no-repeat;}
+	   .maintop li.yxzc.check label{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -105px -22px no-repeat;}
+	   .maintop li.telzc label{ width: 14px; height: 22px; overflow: hidden; background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -137px -22px no-repeat;}
+	   .maintop li.telzc.check label{ background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -27px 0 no-repeat;}
+	   .pr9{ margin-right: 9px;}
+	   .maincon{ margin-top: 59px;}
+	   .mainl{ width: 692px;}
+	   .line{ height: 260px; width: 1px; background: #eeeeee; margin-top: 48px;}
+	   .mainr{width: 249px;}
+	   .fl{ float: left;}
+	   .fr{ float: right;}
+	   .rtu{background: url(http://ys.mfstatic.com/project/passport/images/register/jyds.png) no-repeat; width: 195px; height: 187px; margin-top: 18px; margin-left: 3px;}
+	   .mainr h3{ font-size: 16px; color: #666666; line-height: 16px;}
+	   .mt15{margin-top: 15px;}
+	   .mainr p{ font-size: 12px; color: #999999; line-height: 30px;}
+	   .mainr p span{ display: inline-block; width: 60px; padding-left: 8px;}
+	   .lsj{ height: 38px; width: 100%;}
+	   .lsj label.sjtit{ width: 113px; height: 38px; line-height: 38px; margin-right: 10px; text-align: right; display: block; font-size: 16px; color: #373737;}
+	   .lsj label.sjtit i{ font-style: normal; font-size: 16px; color: #dc1e32; line-height: 40px; padding-right: 6px; display: block;}
+	    .lsj label.sjtit span{ display: block; line-height: 38px;}
+	    .lsj .errorbox {display: none;}
+	    .lsj.okle .errorbox,.lsj.errorle .errorbox{display: block;}
+	   .inputs{ border: solid 1px #999999; outline: none; color: #bbbbbb; font-size: 14px;}
+	   .telk{ width: 249px; padding-left: 11px; height: 36px; line-height: 36px; color: #373737;}
+	   .yzk{ width: 119px; height: 36px; padding-left: 11px; line-height: 36px;color: #373737;}
+	   .errorbox{ height: 18px; line-height: 18px; margin-top: 10px; padding-left: 12px; display: inline-block;}
+	   .errorbox p{ font-size: 14px; color: #666666;}
+	   .errorbox label{ width: 18px; height: 18px; overflow: hidden; display: block;}
+	   .errorbox span{ line-height: 18px; height: 18px; display: block; color: #dc1e32; font-size: 14px;}
+	   .errorle .errorbox label{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -65px 0 no-repeat;}
+	   .errorle .errorbox span{display: block;}
+	   .okle .errorbox label{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -45px 0 no-repeat;}
+	   .okle .errorbox span{ display: none;}
+	   .errorbox span{ display: none;}
+	   .pr7{margin-right: 7px;}
+	   .mb29{ margin-bottom: 29px;}
+	   .yzmk{ width: 122px; height: 38px; padding-left: 8px;}
+	   .yzmimg{ width: 82px; height: 38px; background: #000;}
+	   .yzmk a{ color: #00a0e9; width: 38px; font-size: 12px; line-height: 38px; display: inline-block; cursor: pointer;}
+	   .yzkagin{ width: 109px; height: 36px; line-height: 36px; padding-left: 11px;}
+	   .djsnum,.djshq{ width: 132px; height: 38px; margin-right: 8px; line-height: 38px; background: #cccccc; text-align: center; color: #fff; font-size: 14px;}
+	   .djshq{ cursor: pointer;}
+	   .djshq{ background: #00a0e9;}
+	   .passbox{ width: 260px; height: 36px;border: solid 1px #999999;}
+	   .password{ width: 218px; height: 36px; line-height:36px; padding-left: 11px; display: block; border: none; outline: none;}
+	   .eyebox{ width:24px; height: 16px; overflow: hidden;background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -87px -2px no-repeat; margin-top: 10px; cursor: pointer;}
+	   .passbox.open .eye .eyebox{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -114px -1px no-repeat; cursor: pointer;}
+	   /*.passbox.open .mm{ display: block;}
+	   .passbox.open .mmum{ display: none;}*/
+	   /*.passbox .mm{ display: none;}*/
+	   .passbox .mmum{ display: block;}
+	   .djcd{ margin-left: 123px; margin-top: 8px;}
+	   .djcd li{ width: 84px; height: 20px; background: #cccccc; color: #fff;font-size: 12px; text-align: center;line-height: 20px; margin-right: 4px;}
+	   .djcd li.blueli{ background: #00a0e9;}
+	   .checkoxa{ width: 14px; height: 14px; cursor: pointer; background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -153px 0px no-repeat; margin-right: 8px; }
+	   .checkoxa.check{ background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -138px 0px no-repeat;}
+	   .mzsm{ height: 14px;}
+	   .xy{ font-size: 14px; line-height: 14px; height: 14px; color: #666666;}
+	   .xy span{display: inline-block; padding-left: 7px; color: #00a0e9; cursor: pointer;}
+	   .mt25{ margin-top: 25px;}
+	   .mt29{margin-top: 29px;}
+	   .zcbut{ width: 102px; height: 38px; background:url(http://ys.mfstatic.com/project/passport/images/register/icon.png) 0px -23px no-repeat; cursor: pointer;  border: none; color: #fff; font-size: 14px;}
+	   .errorle .inputs{ border: solid 1px #dc1e32;}
+	   .disnon{display: none;}
+
+	   .inputs.huicolor{ border: solid 1px #999999;}
+	   .inputs.redcolor{ border: solid 1px #dc1e32;}
+	   .inputs.bluecolor{border: solid 1px #00a0e9;}
+	   /**/
+	   .blackbox{ width: 100%; height: 100%; background: #000; filter:alpha(opacity=30); -moz-opacity:0.3; -khtml-opacity:0.3; opacity: 0.3; position: absolute; left: 0; top: 0;z-index: 100;}
+	   .floatbox{ width: 454px; height: 222px; background: url(http://ys.mfstatic.com/project/passport/images/register/tc.png) no-repeat; position: fixed; left: 50%; top: 50%; margin-left: -227px; margin-top: -111px; z-index: 105;}
+	   .fltop{ width: 409px; margin-left: 20px; margin-top: 12px; height: 36px;}
+	   .wxts{ font-size: 16px; color: #1899e8; float: left;display: block; line-height: 36px;}
+	   .close{ float: right; width: 15px; height: 15px;cursor: pointer; background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -105px -46px no-repeat;}
+	   .close:hover{ background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -150px -46px no-repeat;}
+	   .flmain{ width: 416px;  margin-left: 20px;}
+	   .xtnr{font-size: 14px; line-height: 24px; margin-top: 13px; margin-bottom: 10px;}
+	   .xtnr span{ cursor: pointer;color: #1899e8;}
+	   .againsuc{ font-size: 14px;color: #dc1e32; line-height: 28px;}
+	   .maildl{ width: 102px; height: 38px; text-align: center; line-height: 38px; border: none; display: block; cursor: pointer; margin: 0 auto;_margin-left:227px; color: #fff; background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) 0 -23px no-repeat;}

@@ -1,0 +1,1 @@
+DD_belatedPNG.fix(".logo img,.rightMation span i,.contTop h3 em,.rgihtList .icon,.bottomList h3 em,.botListBox i");

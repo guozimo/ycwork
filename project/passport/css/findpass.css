@@ -1,0 +1,29 @@
+.mainin{ width: 882px; margin: 0 auto; _margin-left:110px; z-index: 90;}
+.okzhbox{ height: 90px; margin-top: 29px;}
+.okzhbox dl{ width: 109px; background: none;}
+.okzhbox dl dt{ width: 31px; height: 30px; background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -33px -64px no-repeat; font-size: 16px; color: #fff; line-height: 30px; text-align: center; display: block; margin: 0 auto;}
+.okzhbox dl dd{ text-align: center; font-size: 16px; color: #999999; line-height: 40px;}
+.okzhbox dl.check dd{ color: #00a0e9;}
+.okzhbox dl.check dt{ background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) 0px -64px no-repeat; }
+.ml66{ margin-left: 66px;}
+.huiline{ width: 210px; height: 14px; border-bottom: solid 4px #bbbbbb;}
+.mian1{ width: 880px; height: 328px; border:solid 1px #dddddd; background: #fafafa;}
+.miantop1{ width: 800px; margin: 0 auto; _margin-left:80px;}
+.miantopa1{ height: 25px; margin-top: 27px;padding-bottom:14px;  width: 800px; border-bottom: solid 1px #dddddd;}
+.miantopaa{ height: 25px;width: 25px; overflow:hidden;background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -66px -64px no-repeat; margin-right: 6px;}
+.miantopa1 p{font-size: 14px; color: #373737; height: 25px; line-height: 24px; width: 430x;}
+.colorhui{ color: #bbbbbb; border: solid 1px #cccccc; display: block;}
+.lsj label.sjtit.sjtitl{ width: 50px; text-align: left;}
+.ml202{ padding-left: 202px; display: inline-block;}
+.ml176{ padding-left: 176px; display: inline-block;}
+.mt29{ margin-top: 29px;}
+.ml276{margin-left: 263px;}
+.people{background: url(http://ys.mfstatic.com/project/passport/images/register/icon.png) -93px -64px no-repeat;}
+.lsj label.w85{width: 75px;}
+.mailadd{ font-size: 16px; color: #373737; line-height: 38px;}
+.msy{font-size: 14px; color: #999999; height: 14px;line-height: 14px;}
+.mb19{margin-bottom: 19px;}
+.m275{margin-left: 285px;}
+.mt20{margin-top: 20px;}
+
+.lsj label.sjtit.sjtitl.w95{width: 85px; margin-right: 20px;}
